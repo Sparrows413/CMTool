@@ -61,6 +61,34 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Displays the list of targetable entities in the area around you.
+        ///• This list is populated based on distance from the player, and can potentially shift if any entities change positions, including minions..
+        /// </summary>
+        public static string ActorEntityListToolTip {
+            get {
+                return ResourceManager.GetString("ActorEntityListToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Actor Refresh.
+        /// </summary>
+        public static string ActorRefreshButton {
+            get {
+                return ResourceManager.GetString("ActorRefreshButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Refresh the selected actor, reloading it based on the changes you&apos;ve made..
+        /// </summary>
+        public static string ActorRefreshToolTip {
+            get {
+                return ResourceManager.GetString("ActorRefreshToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Anim Speed:.
         /// </summary>
         public static string AnimSpeed {
@@ -124,7 +152,8 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the X Scale of the selected actors Bust.&amp;#xD;&amp;#xA;&amp;#x2022; This option is Female only..
+        ///   Looks up a localized string similar to Modifies the X Scale of the selected actors Bust.
+        ///• This option is Female only..
         /// </summary>
         public static string BustXScaleToolTip {
             get {
@@ -142,7 +171,8 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the Y Scale of the selected actors Bust.&amp;#xD;&amp;#xA;&amp;#x2022; This option is Female only..
+        ///   Looks up a localized string similar to Modifies the Y Scale of the selected actors Bust.
+        ///• This option is Female only..
         /// </summary>
         public static string BustYScaleToolTip {
             get {
@@ -160,7 +190,8 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the Z Scale of the selected actors Bust.&amp;#xD;&amp;#xA;&amp;#x2022; This option is Female only..
+        ///   Looks up a localized string similar to Modifies the Z Scale of the selected actors Bust.
+        ///• This option is Female only..
         /// </summary>
         public static string BustZScaleToolTip {
             get {
@@ -448,7 +479,11 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Changes the Data Path of the selected entity. &amp;#xD;&amp;#xA;This will allow you use the animations of other Races or Genders.&amp;#xD;&amp;#xA;&amp;#x2022; Does not require an Actor Refresh, and can be used in and out of GPose.&amp;#xD;&amp;#xA;&amp;#x2022; The entity&apos;s skeleton will be morphed to fit the selected race. This stretching or shrinking is unavoidable.&amp;#xD;&amp;#xA;&amp;#x2022; You can use Actor Refresh if you want to become an abomination for fun..
+        ///   Looks up a localized string similar to Changes the Data Path of the selected entity.
+        ///•This will allow you use the animations of other Races or Genders.
+        ///• Does not require an Actor Refresh, and can be used in and out of GPose.
+        ///• The entity&apos;s skeleton will be morphed to fit the selected race. This stretching or shrinking is unavoidable.
+        ///• You can use Actor Refresh if you want to become an abomination for fun..
         /// </summary>
         public static string DataPathToolTip {
             get {
@@ -637,6 +672,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Reload Process.
+        /// </summary>
+        public static string FindProcessButton {
+            get {
+                return ResourceManager.GetString("FindProcessButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reload the Final Fantasy XIV process..
+        /// </summary>
+        public static string FindProcessToolTip {
+            get {
+                return ResourceManager.GetString("FindProcessToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Force Anim:.
         /// </summary>
         public static string ForceAnim {
@@ -646,7 +699,11 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Forces the selected entity to perform an animation.&amp;#xD;&amp;#xA;&amp;#x2022; This can only be used in GPose.&amp;#xD;&amp;#xA;&amp;#x2022; In order to use this, you need to do a non-looping emote, suchs as /wave before entering GPose.&amp;#xD;&amp;#xA;&amp;#x2022; Some animations have a specific race/gender requirement in order to perform. You may need to use a different Data Path if your character is just twitching.&amp;#xD;&amp;#xA;&amp;#x2022; Does not work on NPCs!.
+        ///   Looks up a localized string similar to Forces the selected entity to perform an animation.
+        ///• This can only be used in GPose.
+        ///• In order to use this, you need to do a non-looping emote, suchs as /wave before entering GPose.
+        ///• Some animations have a specific race/gender requirement in order to perform. You may need to use a different Data Path if your character is just twitching.
+        ///• Does not work on NPCs!.
         /// </summary>
         public static string ForceAnimToolTip {
             get {
@@ -691,7 +748,9 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Freezes the position of the selected entity.&amp;#xD;&amp;#xA;&amp;#x2022; This is useful for moving entities in GPose, as it will prevent them from snapping back to their original position when their emote changes or you use face camera.&amp;#xD;&amp;#xA;&amp;#x2022; Make sure to press this button again before clicking or tabbing to a new entity, or it will snap them to the same position..
+        ///   Looks up a localized string similar to Freezes the position of the selected entity
+        ///• This is useful for moving entities in GPose, as it will prevent them from snapping back to their original position when their emote changes or you use face camera.
+        ///• Make sure to press this button again before clicking or tabbing to a new entity, or it will snap them to the same position..
         /// </summary>
         public static string FreezePosToolTip {
             get {
@@ -709,7 +768,11 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Freezes the rotation of the selected entity.&amp;#xD;&amp;#xA;&amp;#x2022; This is useful in conjunction with Freeze Pos for preserving the position and rotation of an entity in GPose.&amp;#xD;&amp;#xA;&amp;#x2022; You can use this along with the &apos;Face Camera&apos; toggle in-game (Default: Space Bar) to turn the entity&apos;s head without turning the entire body.&amp;#xD;&amp;#xA;&amp;#x2022; Same as Freeze Pos, make sure to toggle off Freeze Rot before switching entities in GPose. &amp;#xD;&amp;#xA;&amp;#x2022; Required for using Numerical direct input or Rotatio [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Freezes the rotation of the selected entity.
+        ///• This is useful in conjunction with Freeze Pos for preserving the position and rotation of an entity in GPose.
+        ///• You can use this along with the &apos;Face Camera&apos; toggle in-game (Default: Space Bar) to turn the entity&apos;s head without turning the entire body.
+        ///• Same as Freeze Pos, make sure to toggle off Freeze Rot before switching entities in GPose. 
+        ///• Required for using Numerical direct input or Rotation Sliders..
         /// </summary>
         public static string FreezeRotToolTip {
             get {
@@ -732,6 +795,25 @@ namespace ConceptMatrix.Resx {
         public static string GenderToolTip {
             get {
                 return ResourceManager.GetString("GenderToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to GPose Mode:.
+        /// </summary>
+        public static string GPoseMode {
+            get {
+                return ResourceManager.GetString("GPoseMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows for certain values such as XYZ Position, Rotation and Animation to be changed for your currently selected entity in GPose.
+        ///• GPose mode and Target Mode both toggle on at the same time. Make sure not to have Target Mode already toggled on, or it will toggle off instead..
+        /// </summary>
+        public static string GposeModeToolTip {
+            get {
+                return ResourceManager.GetString("GposeModeToolTip", resourceCulture);
             }
         }
         
@@ -844,7 +926,10 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Changes the Idle Animation of the selected entity.&amp;#xD;&amp;#xA;&amp;#x2022; This can be used both in and out of GPose.&amp;#xD;&amp;#xA;&amp;#x2022; If you plan to use this in GPose, you will need to sit/stand, then use /cpose until your Idle Anim reads &apos;3&apos;&amp;#xD;&amp;#xA;&amp;#x2022; This can be used on Pets, Minions, Chocobos and most NPCs!.
+        ///   Looks up a localized string similar to Changes the Idle Animation of the selected entity.
+        ///• This can be used both in and out of GPose.
+        ///• If you plan to use this in GPose, you will need to sit/stand, then use /cpose until your Idle Anim reads.
+        ///• This can be used on Pets, Minions, Chocobos and most NPCs!.
         /// </summary>
         public static string IdleAnimToolTip {
             get {
@@ -934,6 +1019,43 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Load Appearance.
+        /// </summary>
+        public static string LoadMainWindow {
+            get {
+                return ResourceManager.GetString("LoadMainWindow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load Appearance from a user-generated JSON file. 
+        ///•You can load data you have saved from the Character Creator in-game using the &apos;Load .DAT&apos; option..
+        /// </summary>
+        public static string LoadMainWindowToolTip {
+            get {
+                return ResourceManager.GetString("LoadMainWindowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load State.
+        /// </summary>
+        public static string LoadPointButton {
+            get {
+                return ResourceManager.GetString("LoadPointButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reverts back to your &apos;Backup&apos; state..
+        /// </summary>
+        public static string LoadPointToolTip {
+            get {
+                return ResourceManager.GetString("LoadPointToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lock Facial Animation:.
         /// </summary>
         public static string LockFacialAnimation {
@@ -943,7 +1065,8 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Locks the Facial Animation of the selected actor.&amp;#xD;&amp;#xA;&amp;#x2022; To properly lock the facial animation of the selected actor, you need to toggle this on, freeze the option, and then set Anim Speed to Zero..
+        ///   Looks up a localized string similar to Locks the Facial Animation of the selected actor.
+        ///• To properly lock the facial animation of the selected actor, you need to toggle this on, freeze the option, and then set Anim Speed to Zero..
         /// </summary>
         public static string LockFacialAnimationToolTip {
             get {
@@ -970,7 +1093,9 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Opens a flyout menu on the right side that allows you to search for Monsters, Demi-Humans, Prop Entities and Entity-Based Effects.&amp;#xD;&amp;#xA;&amp;#x2022; Some NPCs are found under this selection because they are classified as Demi-Humans, such as Beast Tribes, Zenos, Thordan/Knights, etc.&amp;#xD;&amp;#xA;&amp;#x2022; If you become invisible after changing to a Demi-Human, change all of your Equipment to Base 0, Variant 0. If this doesn&apos;t work, try 1,0 or 1,1..
+        ///   Looks up a localized string similar to Opens a flyout menu on the right side that allows you to search for Monsters, Demi-Humans, Prop Entities and Entity-Based Effects.
+        ///• Some NPCs are found under this selection because they are classified as Demi-Humans, such as Beast Tribes, Zenos, Thordan/Knights, etc.
+        ///• If you become invisible after changing to a Demi-Human, change all of your Equipment to Base 0, Variant 0. If this doesn&apos;t work, try 1,0 or 1,1..
         /// </summary>
         public static string ModelTypeButtonToolTip {
             get {
@@ -1132,7 +1257,11 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use your mouse buttons to control the cube. &amp;#xD;&amp;#xA;All rotations are relative to the direction that the entity is currently facing.&amp;#xD;&amp;#xA;&amp;#x2022; RMB controls X-axis rotation.&amp;#xD;&amp;#xA;&amp;#x2022; LMB controls Y-axis rotation.&amp;#xD;&amp;#xA;&amp;#x2022; MMB controls Z-axis rotation..
+        ///   Looks up a localized string similar to Use your mouse buttons to control the cube.
+        ///• All rotations are relative to the direction that the entity is currently facing.
+        ///• RMB controls X-axis rotation.
+        ///• LMB controls Y-axis rotation.
+        ///• MMB controls Z-axis rotation..
         /// </summary>
         public static string RealTimeRotationToolTip {
             get {
@@ -1150,7 +1279,8 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This toggle will make all XYZ movements relative to the entity being targeted, and not absolute based on the gameworld.&amp;#xD;&amp;#xA;&amp;#x2022; This setting is defaulted to on, and its state is saved between sessions..
+        ///   Looks up a localized string similar to This toggle will make all XYZ movements relative to the entity being targeted, and not absolute based on the gameworld.
+        ///• This setting is defaulted to on, and its state is saved between sessions..
         /// </summary>
         public static string RelativeXYZPosToolTip {
             get {
@@ -1168,7 +1298,9 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This toggle will make all XYZ rotations relative to the entity being targeted, and not absolute based on the gameworld.&amp;#xD;&amp;#xA;&amp;#x2022; This setting is defaulted to on, and its state is saved between sessions. &amp;#xD;&amp;#xA;&amp;#x2022; Only affects the Realtime Rotation Cube..
+        ///   Looks up a localized string similar to This toggle will make all XYZ rotations relative to the entity being targeted, and not absolute based on the gameworld. 
+        ///• This setting is defaulted to on, and its state is saved between sessions.
+        ///• Only affects the Realtime Rotation Cube..
         /// </summary>
         public static string RelativeXYZRotToolTip {
             get {
@@ -1186,11 +1318,51 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This toggle will switch between Rotation Sliders and Numerical direct input.&amp;#xD;&amp;#xA;&amp;#x2022; This setting is defaulted to on, and its state is saved between sessions.&amp;#xD;&amp;#xA;&amp;#x2022; Turning it off will turn the XYZ Rotation sliders into numerical values.&amp;#xD;&amp;#xA;&amp;#x2022; Each input will accept a value between 0 and 360.&amp;#xD;&amp;#xA;&amp;#x2022; Both Rotation Sliders and Numerical direct input require Rotation to be frozen..
+        ///   Looks up a localized string similar to This toggle will switch between Rotation Sliders and Numerical direct input.
+        ///•This setting is defaulted to on, and its state is saved between sessions.
+        ///• Turning it off will turn the XYZ Rotation sliders into numerical values.
+        ///• Each input will accept a value between 0 and 360. 
+        ///• Both Rotation Sliders and Numerical direct input require Rotation to be frozen..
         /// </summary>
         public static string RotationSlidersToolTip {
             get {
                 return ResourceManager.GetString("RotationSlidersToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Appearance.
+        /// </summary>
+        public static string SaveMainWindow {
+            get {
+                return ResourceManager.GetString("SaveMainWindow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Appearance to a JSON file..
+        /// </summary>
+        public static string SaveMainWindowToolTip {
+            get {
+                return ResourceManager.GetString("SaveMainWindowToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save State.
+        /// </summary>
+        public static string SavePointButton {
+            get {
+                return ResourceManager.GetString("SavePointButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Creates a &apos;Backup&apos; state that you can load later..
+        /// </summary>
+        public static string SavePointToolTip {
+            get {
+                return ResourceManager.GetString("SavePointToolTip", resourceCulture);
             }
         }
         
@@ -1222,6 +1394,25 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Target Mode:.
+        /// </summary>
+        public static string TargetMode {
+            get {
+                return ResourceManager.GetString("TargetMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to change values for your selected target without using the Entity List.
+        ///•This is handy for busy areas where the Entity List constantly shifting. You will need to uncheck this and use the normal method to apply the changes you make, though..
+        /// </summary>
+        public static string TargetModeToolTip {
+            get {
+                return ResourceManager.GetString("TargetModeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Title:.
         /// </summary>
         public static string Title {
@@ -1249,11 +1440,31 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the transparency of the selected entity.&amp;#xD;&amp;#xA;&amp;#x2022; Reducing the transparency of an actor does not affect their main or offhand weapons. You can set the XYZ scale of their weapons to 0 in the Equipment tab.&amp;#xD;&amp;#xA;&amp;#x2022; Setting this to 0 for an entity in GPose can cause the system to forget that they&apos;re targetable. If you plan to still use them, set it to 0.03..
+        ///   Looks up a localized string similar to Modifies the transparency of the selected entity.
+        ///• Reducing the transparency of an actor does not affect their main or offhand weapons. You can set the XYZ scale of their weapons to 0 in the Equipment tab.
+        ///• Setting this to 0 for an entity in GPose can cause the system to forget that they&apos;re targetable. If you plan to still use them, set it to 0.03..
         /// </summary>
         public static string TransparencyToolTip {
             get {
                 return ResourceManager.GetString("TransparencyToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unfreeze All.
+        /// </summary>
+        public static string UncheckButton {
+            get {
+                return ResourceManager.GetString("UncheckButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Uncheck and unfreeze all selections..
+        /// </summary>
+        public static string UncheckButtonToolTip {
+            get {
+                return ResourceManager.GetString("UncheckButtonToolTip", resourceCulture);
             }
         }
         
@@ -1294,7 +1505,8 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the X Position of the selected actor.&amp;#xD;&amp;#xA;&amp;#x2022; You may need to Freeze the animations of your actor to properly apply this in GPose..
+        ///   Looks up a localized string similar to Modifies the X Position of the selected actor.
+        ///• You may need to Freeze the animations of your actor to properly apply this in GPose..
         /// </summary>
         public static string XPosToolTip {
             get {
@@ -1312,7 +1524,9 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the X Rotation of the selected actor.&amp;#xD;&amp;#xA;&amp;#x2022; You may need to Freeze the animations of your actor to properly apply this in GPose.&amp;#xD;&amp;#xA;&amp;#x2022; Both Rotation Sliders and Numerical direct input require Rotation to be frozen..
+        ///   Looks up a localized string similar to Modifies the X Rotation of the selected actor.
+        ///• You may need to Freeze the animations of your actor to properly apply this in GPose.
+        ///• Both Rotation Sliders and Numerical direct input require Rotation to be frozen..
         /// </summary>
         public static string XRotToolTip {
             get {
@@ -1330,7 +1544,8 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the Y Position of the selected actor.&amp;#xD;&amp;#xA;&amp;#x2022; You may need to Freeze the animations of your actor to properly apply this in GPose..
+        ///   Looks up a localized string similar to Modifies the Y Position of the selected actor.
+        ///• You may need to Freeze the animations of your actor to properly apply this in GPose..
         /// </summary>
         public static string YPosToolTip {
             get {
@@ -1348,7 +1563,9 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the Y Rotation of the selected actor.&amp;#xD;&amp;#xA;&amp;#x2022; You may need to Freeze the animations of your actor to properly apply this in GPose.&amp;#xD;&amp;#xA;&amp;#x2022; Both Rotation Sliders and Numerical direct input require Rotation to be frozen..
+        ///   Looks up a localized string similar to Modifies the Y Rotation of the selected actor. 
+        ///• You may need to Freeze the animations of your actor to properly apply this in GPose.
+        ///• Both Rotation Sliders and Numerical direct input require Rotation to be frozen..
         /// </summary>
         public static string YRotToolTip {
             get {
@@ -1375,7 +1592,8 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the Z Position of the selected actor.&amp;#xD;&amp;#xA;&amp;#x2022; You may need to Freeze the animations of your actor to properly apply this in GPose..
+        ///   Looks up a localized string similar to Modifies the Z Position of the selected actor.
+        ///• You may need to Freeze the animations of your actor to properly apply this in GPose..
         /// </summary>
         public static string ZPosToolTip {
             get {
@@ -1393,7 +1611,8 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modifies the Z Rotation of the selected actor.&amp;#xD;&amp;#xA;&amp;#x2022; You may need to Freeze the animations of your actor to properly apply this in GPose.&amp;#xD;&amp;#xA;&amp;#x2022; Both Rotation Sliders and Numerical direct input require Rotation to be frozen..
+        ///   Looks up a localized string similar to Modifies the Z Rotation of the selected actor.
+        ///• You may need to Freeze the animations of your actor to properly apply this in GPose.&amp;#xD;&amp;#xA;&amp;#x2022; Both Rotation Sliders and Numerical direct input require Rotation to be frozen..
         /// </summary>
         public static string ZRotToolTip {
             get {
