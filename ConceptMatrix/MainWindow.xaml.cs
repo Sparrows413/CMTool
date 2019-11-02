@@ -20,6 +20,7 @@ using System.Net;
 using ConceptMatrix.Views;
 using WepTuple = System.Tuple<int, int, int, int>;
 using SaintCoinach;
+using System.Globalization;
 
 namespace ConceptMatrix
 {
@@ -39,6 +40,16 @@ namespace ConceptMatrix
         readonly Version version = Assembly.GetExecutingAssembly().GetName().Version;
         public MainWindow()
         {
+            var settings = SaveSettings.Default;
+         /*   LanguageSelection();
+            var ci = new CultureInfo(settings.CultureSet)
+            {
+                NumberFormat = { NumberDecimalSeparator = "." }
+            };
+            CultureInfo.DefaultThreadCurrentCulture = ci;
+            CultureInfo.DefaultThreadCurrentUICulture = ci;
+            CultureInfo.CurrentCulture = ci;
+            CultureInfo.CurrentUICulture = ci;*/
             ServicePointManager.SecurityProtocol = (ServicePointManager.SecurityProtocol & SecurityProtocolType.Ssl3) | (SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12);
 
             // Call the update method.
@@ -140,20 +151,34 @@ namespace ConceptMatrix
                 new Int32Rect(0, 0, icon.Width, icon.Height),
                 BitmapSizeOptions.FromEmptyOptions());
         }
+        private void LanguageSelection()
+        {
+            var lang = SaveSettings.Default.CultureSet;
+
+            if (lang.Equals(string.Empty))
+            {
+                var langSelectView = new LanguageSelect();
+                langSelectView.ShowDialog();
+
+                var langCode = langSelectView.LanguageCode;
+
+                SaveSettings.Default.CultureSet = langCode;
+            }
+        }
         private void MetroWindow_Loaded(object sender, RoutedEventArgs e)
         {
+
             Title = $"{App.ToolName} v{version}";
             DataContext = new MainViewModel();
-            var settings = SaveSettings.Default;
-            var accentColor = settings.Accent;
+            var accentColor = SaveSettings.Default.Accent;
             new PaletteHelper().ReplaceAccentColor(accentColor);
-            var primaryColor = settings.Primary;
+            var primaryColor = SaveSettings.Default.Primary;
             new PaletteHelper().ReplacePrimaryColor(primaryColor);
-            var theme = settings.Theme;
+            var theme = SaveSettings.Default.Theme;
             new PaletteHelper().SetLightDark(theme != "Light");
-            this.Topmost = settings.TopApp;
+            this.Topmost = SaveSettings.Default.TopApp;
 			// toggle status
-			(DataContext as MainViewModel).ToggleStatus(settings.TopApp);
+			(DataContext as MainViewModel).ToggleStatus(SaveSettings.Default.TopApp);
 	        // CharacterDetailsView._exdProvider.MakeCharaMakeFeatureList();
             // CharacterDetailsView._exdProvider.MakeCharaMakeFeatureFacialList();
             // CharacterDetailsView._exdProvider.MakeTerritoryTypeList();
@@ -1246,6 +1271,19 @@ namespace ConceptMatrix
             CharacterDetails.OffhandV.value = (byte)SaveSettings.Default.OffHandQuads.Item3;
             CharacterDetails.OffhandDye.value = (byte)SaveSettings.Default.OffHandQuads.Item4;
             MemoryManager.Instance.MemLib.writeBytes(MemoryManager.GetAddressString(CharacterDetailsViewModel.baseAddr, Settings.Instance.Character.Offhand), EquipmentFlyOut.WepTupleToByteAry(SaveSettings.Default.OffHandQuads));
+        }
+
+        private void LangButton_Click(object sender, RoutedEventArgs e)
+        {
+            var langSelectView = new LanguageSelect();
+            langSelectView.Owner = Application.Current.MainWindow;
+            langSelectView.ShowDialog();
+
+            var langCode = langSelectView.LanguageCode;
+            if (langCode == null ||langCode.Length<0) return;
+            SaveSettings.Default.CultureSet = langCode;
+            System.Windows.Forms.Application.Restart();
+            Application.Current.Shutdown();
         }
     }
 }

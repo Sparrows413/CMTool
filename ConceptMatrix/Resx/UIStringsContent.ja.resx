@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnimSpeed" xml:space="preserve">
+    <value>アニメーション速度：</value>
+  </data>
+  <data name="BodyType" xml:space="preserve">
+    <value>体型：</value>
+  </data>
+  <data name="BustSize" xml:space="preserve">
+    <value>バストサイズ：</value>
+  </data>
+  <data name="BustXScale" xml:space="preserve">
+    <value>バストXスケール：</value>
+  </data>
+  <data name="BustYScale" xml:space="preserve">
+    <value>バストYスケール：</value>
+  </data>
+  <data name="BustZScale" xml:space="preserve">
+    <value>バストZスケール：</value>
+  </data>
+  <data name="CameraViewX" xml:space="preserve">
+    <value>カメラビューX：</value>
+  </data>
+  <data name="CameraViewY" xml:space="preserve">
+    <value>カメラビューY：</value>
+  </data>
+  <data name="CameraViewZ" xml:space="preserve">
+    <value>カメラビューZ：</value>
+  </data>
+  <data name="CameraXPos" xml:space="preserve">
+    <value>カメラX位置：</value>
+  </data>
+  <data name="CameraYPos" xml:space="preserve">
+    <value>カメラY位置：</value>
+  </data>
+  <data name="CameraZPos" xml:space="preserve">
+    <value>カメラZ位置：</value>
+  </data>
+  <data name="Clan" xml:space="preserve">
+    <value>クラン：</value>
+  </data>
+  <data name="DataPath" xml:space="preserve">
+    <value>データ経路：</value>
+  </data>
+  <data name="EarMuscleTailSize" xml:space="preserve">
+    <value>耳/筋肉/尾のサイズ：</value>
+  </data>
+  <data name="EarTailScale" xml:space="preserve">
+    <value>耳/尾のスケール：</value>
+  </data>
+  <data name="EarTailType" xml:space="preserve">
+    <value>耳/尾のタイプ：</value>
+  </data>
+  <data name="EyebrowsType" xml:space="preserve">
+    <value>眉毛タイプ：</value>
+  </data>
+  <data name="EyeColorLeft" xml:space="preserve">
+    <value>目の色（左）：</value>
+  </data>
+  <data name="EyeColorRight" xml:space="preserve">
+    <value>目の色（右）;</value>
+  </data>
+  <data name="EyesType" xml:space="preserve">
+    <value>目のタイプ：</value>
+  </data>
+  <data name="FacePaint" xml:space="preserve">
+    <value>フェイスペイント/タトゥー：</value>
+  </data>
+  <data name="FacePaintColor" xml:space="preserve">
+    <value>フェイスペイントカラー：</value>
+  </data>
+  <data name="FacialFeatures" xml:space="preserve">
+    <value>顔の特徴：</value>
+  </data>
+  <data name="ForceAnim" xml:space="preserve">
+    <value>アニメーションを強制する：</value>
+  </data>
+  <data name="FreeCompanyTag" xml:space="preserve">
+    <value>フリーカンパニータグ：</value>
+  </data>
+  <data name="FreezePos" xml:space="preserve">
+    <value>フリーズPos</value>
+  </data>
+  <data name="FreezeRot" xml:space="preserve">
+    <value>凍結腐敗</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>性別：</value>
+  </data>
+  <data name="HairColor" xml:space="preserve">
+    <value>髪の色：</value>
+  </data>
+  <data name="Hairstyle" xml:space="preserve">
+    <value>髪型：</value>
+  </data>
+  <data name="HeadType" xml:space="preserve">
+    <value>ヘッドタイプ：</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>高さ：</value>
+  </data>
+  <data name="Highlights" xml:space="preserve">
+    <value>ハイライト：</value>
+  </data>
+  <data name="IdleAnim" xml:space="preserve">
+    <value>アイドルアニメーション：</value>
+  </data>
+  <data name="JawType" xml:space="preserve">
+    <value>顎タイプ：</value>
+  </data>
+  <data name="JobIcon" xml:space="preserve">
+    <value>ジョブアイコン：</value>
+  </data>
+  <data name="LimbalOrTattoo" xml:space="preserve">
+    <value>リムバル/タトゥーの色：</value>
+  </data>
+  <data name="LipColor" xml:space="preserve">
+    <value>唇の色/毛皮のパターン：</value>
+  </data>
+  <data name="LockFacialAnimation" xml:space="preserve">
+    <value>顔のアニメーションをロック：</value>
+  </data>
+  <data name="ModelList" xml:space="preserve">
+    <value>モデルリスト</value>
+  </data>
+  <data name="ModelType" xml:space="preserve">
+    <value>モデルタイプ：</value>
+  </data>
+  <data name="MouthType" xml:space="preserve">
+    <value>口の種類：</value>
+  </data>
+  <data name="MuscleTone" xml:space="preserve">
+    <value>筋肉のトーン：</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名前：</value>
+  </data>
+  <data name="NoseType" xml:space="preserve">
+    <value>鼻のタイプ：</value>
+  </data>
+  <data name="OverallScale" xml:space="preserve">
+    <value>全体の規模：</value>
+  </data>
+  <data name="Race" xml:space="preserve">
+    <value>人種：</value>
+  </data>
+  <data name="RandomizeAppearance" xml:space="preserve">
+    <value>外観のランダム化</value>
+  </data>
+  <data name="RealtimeRotation" xml:space="preserve">
+    <value>リアルタイムローテーション：</value>
+  </data>
+  <data name="RelativeXYZPos" xml:space="preserve">
+    <value>相対XYZ位置：</value>
+  </data>
+  <data name="RelativeXYZRot" xml:space="preserve">
+    <value>相対XYZ回転：</value>
+  </data>
+  <data name="RotationSliders" xml:space="preserve">
+    <value>回転スライダー：</value>
+  </data>
+  <data name="Skintone" xml:space="preserve">
+    <value>スキネトン：</value>
+  </data>
+  <data name="TargetActorIs" xml:space="preserve">
+    <value>ターゲットアクターは???</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>タイトル：</value>
+  </data>
+  <data name="Transparency" xml:space="preserve">
+    <value>透明性：</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>見る</value>
+  </data>
+  <data name="VoiceType" xml:space="preserve">
+    <value>音声タイプ：</value>
+  </data>
+  <data name="XPos" xml:space="preserve">
+    <value>X位置：</value>
+  </data>
+  <data name="XRot" xml:space="preserve">
+    <value>X回転：</value>
+  </data>
+  <data name="YPos" xml:space="preserve">
+    <value>Y位置：</value>
+  </data>
+  <data name="YRot" xml:space="preserve">
+    <value>Y回転：</value>
+  </data>
+  <data name="Zero" xml:space="preserve">
+    <value>ゼロ</value>
+  </data>
+  <data name="ZPos" xml:space="preserve">
+    <value>Z位置：</value>
+  </data>
+  <data name="ZRot" xml:space="preserve">
+    <value>Z回転：</value>
+  </data>
+  <data name="c1001" xml:space="preserve">
+    <value>c1001-ルガディンメス</value>
+  </data>
+  <data name="c101" xml:space="preserve">
+    <value>c101-ヒューアの男性</value>
+  </data>
+  <data name="c104" xml:space="preserve">
+    <value>c104-ヒュール男性（子供）</value>
+  </data>
+  <data name="c1101" xml:space="preserve">
+    <value>c1101-ララフェル男性</value>
+  </data>
+  <data name="c1201" xml:space="preserve">
+    <value>c1201-ララフェルメス</value>
+  </data>
+  <data name="c1301" xml:space="preserve">
+    <value>c1301-アウラ男性</value>
+  </data>
+  <data name="c1401" xml:space="preserve">
+    <value>c1401-アウラ女性</value>
+  </data>
+  <data name="c1501" xml:space="preserve">
+    <value>c1501-ロスガー男性</value>
+  </data>
+  <data name="c1801" xml:space="preserve">
+    <value>c1801-ビエラメス</value>
+  </data>
+  <data name="c201" xml:space="preserve">
+    <value>c201-ヒューア女性</value>
+  </data>
+  <data name="c301" xml:space="preserve">
+    <value>c301-ハイランダー男性</value>
+  </data>
+  <data name="c401" xml:space="preserve">
+    <value>c401-ハイランダー女性</value>
+  </data>
+  <data name="c501" xml:space="preserve">
+    <value>c501-エレゼン男性</value>
+  </data>
+  <data name="c504" xml:space="preserve">
+    <value>c504-エレゼン男性（子供）</value>
+  </data>
+  <data name="c601" xml:space="preserve">
+    <value>c601-エレゼン女性</value>
+  </data>
+  <data name="c604" xml:space="preserve">
+    <value>c604-エレゼン女性（子供）</value>
+  </data>
+  <data name="c701" xml:space="preserve">
+    <value>c701-ミコッテマレ</value>
+  </data>
+  <data name="c801" xml:space="preserve">
+    <value>c801-ミコッテ女性</value>
+  </data>
+  <data name="c804" xml:space="preserve">
+    <value>c804-ミコッテ女性（子供）</value>
+  </data>
+  <data name="c901" xml:space="preserve">
+    <value>c901-ルガディン男性</value>
+  </data>
+  <data name="c9104" xml:space="preserve">
+    <value>c9104-パジャル男性</value>
+  </data>
+  <data name="c9204" xml:space="preserve">
+    <value>c9204-パジャル女性</value>
+  </data>
+  <data name="FreeCompanyTagWaterMark" xml:space="preserve">
+    <value>フリーカンパニータグ</value>
+  </data>
+  <data name="NameWaterMark" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>日本語</value>
+  </data>
+</root>

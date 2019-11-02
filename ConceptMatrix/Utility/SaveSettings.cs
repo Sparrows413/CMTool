@@ -63,6 +63,7 @@ namespace ConceptMatrix.Utility
         public bool RotationSliders { get; set; } = true;
         public bool AdvancedMove { get; set; } = true;
         public bool AltRotate { get; set; } = true;
+        public string CultureSet { get; set; } = "";
         public string CharacterAoBBytes { get; set; } = "";
         public string EquipmentBytes { get; set; } = "";
         public WepTuple MainHandQuads { get; set; }
