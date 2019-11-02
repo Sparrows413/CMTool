@@ -529,6 +529,7 @@ namespace ConceptMatrix.Utility
 				}
 				catch (Exception)
 				{
+                    throw;
 				}
 			}
 		}
