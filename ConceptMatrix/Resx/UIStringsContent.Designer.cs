@@ -61,12 +61,39 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to About.
+        /// </summary>
+        public static string About {
+            get {
+                return ResourceManager.GetString("About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Actor Data.
+        /// </summary>
+        public static string ActorData {
+            get {
+                return ResourceManager.GetString("ActorData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Displays the list of targetable entities in the area around you.
         ///• This list is populated based on distance from the player, and can potentially shift if any entities change positions, including minions..
         /// </summary>
         public static string ActorEntityListToolTip {
             get {
                 return ResourceManager.GetString("ActorEntityListToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Actor Properties.
+        /// </summary>
+        public static string ActorProperties {
+            get {
+                return ResourceManager.GetString("ActorProperties", resourceCulture);
             }
         }
         
@@ -89,6 +116,33 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Actor Scale.
+        /// </summary>
+        public static string ActorScale {
+            get {
+                return ResourceManager.GetString("ActorScale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Advanced.
+        /// </summary>
+        public static string Advanced {
+            get {
+                return ResourceManager.GetString("Advanced", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Always On Top.
+        /// </summary>
+        public static string AlwaysOnTopButton {
+            get {
+                return ResourceManager.GetString("AlwaysOnTopButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Anim Speed:.
         /// </summary>
         public static string AnimSpeed {
@@ -107,6 +161,79 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Apply.
+        /// </summary>
+        public static string Apply {
+            get {
+                return ResourceManager.GetString("Apply", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Array of Bytes.
+        /// </summary>
+        public static string ArrayOfBytes {
+            get {
+                return ResourceManager.GetString("ArrayOfBytes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contains data about the selected Entity.
+        ///• You can copy-paste data into this field and hit Apply..
+        /// </summary>
+        public static string ArrayOfBytesToolTip {
+            get {
+                return ResourceManager.GetString("ArrayOfBytesToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to B.
+        /// </summary>
+        public static string B {
+            get {
+                return ResourceManager.GetString("B", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Base.
+        /// </summary>
+        public static string Base {
+            get {
+                return ResourceManager.GetString("Base", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Blue:.
+        /// </summary>
+        public static string Blue {
+            get {
+                return ResourceManager.GetString("Blue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Blue Glow:.
+        /// </summary>
+        public static string BlueGlow {
+            get {
+                return ResourceManager.GetString("BlueGlow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Body:.
+        /// </summary>
+        public static string Body {
+            get {
+                return ResourceManager.GetString("Body", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Changes the Body Type of the selected actor..
         /// </summary>
         public static string BodyToolTip {
@@ -116,11 +243,29 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any bodypiece on the selected actor..
+        /// </summary>
+        public static string BodyToolTip2 {
+            get {
+                return ResourceManager.GetString("BodyToolTip2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Body Type:.
         /// </summary>
         public static string BodyType {
             get {
                 return ResourceManager.GetString("BodyType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Brightness:.
+        /// </summary>
+        public static string Brightness {
+            get {
+                return ResourceManager.GetString("Brightness", resourceCulture);
             }
         }
         
@@ -492,6 +637,43 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Discord.
+        /// </summary>
+        public static string Discord {
+            get {
+                return ResourceManager.GetString("Discord", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Drenched:.
+        /// </summary>
+        public static string Drenched {
+            get {
+                return ResourceManager.GetString("Drenched", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gives the selected entity a much more pronounced wetness effect.
+        ///• Same as Wet, this effect goes away over time..
+        /// </summary>
+        public static string DrenchedToolTip {
+            get {
+                return ResourceManager.GetString("DrenchedToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dyes.
+        /// </summary>
+        public static string Dyes {
+            get {
+                return ResourceManager.GetString("Dyes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ear/Muscle/Tail Size:.
         /// </summary>
         public static string EarMuscleTailSize {
@@ -506,6 +688,24 @@ namespace ConceptMatrix.Resx {
         public static string EarMuscleTailSizeToolTip {
             get {
                 return ResourceManager.GetString("EarMuscleTailSizeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ears:.
+        /// </summary>
+        public static string Ears {
+            get {
+                return ResourceManager.GetString("Ears", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any earrings on the selected actor..
+        /// </summary>
+        public static string EarsToolTip {
+            get {
+                return ResourceManager.GetString("EarsToolTip", resourceCulture);
             }
         }
         
@@ -542,6 +742,36 @@ namespace ConceptMatrix.Resx {
         public static string EarTailTypeToolTip {
             get {
                 return ResourceManager.GetString("EarTailTypeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Entity Type:.
+        /// </summary>
+        public static string EntityType {
+            get {
+                return ResourceManager.GetString("EntityType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For Advanced Users Only!
+        ///• This will change the Entity type of the selected entity.
+        ///• This can lead to unpredictable and unwanted behavior for some entities.
+        ///•  Changing some NPCs to Type 1 will allow them to be targetable in GPose..
+        /// </summary>
+        public static string EntityTypeToolTip {
+            get {
+                return ResourceManager.GetString("EntityTypeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Equipment.
+        /// </summary>
+        public static string Equipment {
+            get {
+                return ResourceManager.GetString("Equipment", resourceCulture);
             }
         }
         
@@ -672,6 +902,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Feet:.
+        /// </summary>
+        public static string Feet {
+            get {
+                return ResourceManager.GetString("Feet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any footwear on the selected actor..
+        /// </summary>
+        public static string FeetToolTip {
+            get {
+                return ResourceManager.GetString("FeetToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reload Process.
         /// </summary>
         public static string FindProcessButton {
@@ -781,6 +1029,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to G.
+        /// </summary>
+        public static string G {
+            get {
+                return ResourceManager.GetString("G", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Gender:.
         /// </summary>
         public static string Gender {
@@ -818,11 +1075,38 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Green:.
+        /// </summary>
+        public static string Green {
+            get {
+                return ResourceManager.GetString("Green", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Green Glow:.
+        /// </summary>
+        public static string GreenGlow {
+            get {
+                return ResourceManager.GetString("GreenGlow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hair Color:.
         /// </summary>
         public static string HairColor {
             get {
                 return ResourceManager.GetString("HairColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hair Color.
+        /// </summary>
+        public static string HairColor2 {
+            get {
+                return ResourceManager.GetString("HairColor2", resourceCulture);
             }
         }
         
@@ -850,6 +1134,42 @@ namespace ConceptMatrix.Resx {
         public static string HairStyleToolTip {
             get {
                 return ResourceManager.GetString("HairStyleToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hands:.
+        /// </summary>
+        public static string Hands {
+            get {
+                return ResourceManager.GetString("Hands", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any handwear on the selected actor..
+        /// </summary>
+        public static string HandsToolTip {
+            get {
+                return ResourceManager.GetString("HandsToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Head:.
+        /// </summary>
+        public static string Head {
+            get {
+                return ResourceManager.GetString("Head", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any headpiece on the selected actor..
+        /// </summary>
+        public static string HeadToolTip {
+            get {
+                return ResourceManager.GetString("HeadToolTip", resourceCulture);
             }
         }
         
@@ -904,6 +1224,15 @@ namespace ConceptMatrix.Resx {
         public static string Highlights {
             get {
                 return ResourceManager.GetString("Highlights", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Highlights Color.
+        /// </summary>
+        public static string HighlightsColor {
+            get {
+                return ResourceManager.GetString("HighlightsColor", resourceCulture);
             }
         }
         
@@ -983,6 +1312,51 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Left Eye Color.
+        /// </summary>
+        public static string LeftEyeColor {
+            get {
+                return ResourceManager.GetString("LeftEyeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Left Ring:.
+        /// </summary>
+        public static string LeftRing {
+            get {
+                return ResourceManager.GetString("LeftRing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any ring on the selected actors left hand..
+        /// </summary>
+        public static string LeftRingToolTip {
+            get {
+                return ResourceManager.GetString("LeftRingToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Legs:.
+        /// </summary>
+        public static string Legs {
+            get {
+                return ResourceManager.GetString("Legs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any leggings on the selected actor..
+        /// </summary>
+        public static string LegsToolTip {
+            get {
+                return ResourceManager.GetString("LegsToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Limbal/Tattoo Color:.
         /// </summary>
         public static string LimbalOrTattoo {
@@ -1001,6 +1375,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Limbal Ring / Tattoos Color.
+        /// </summary>
+        public static string LimbalRingTattooColor {
+            get {
+                return ResourceManager.GetString("LimbalRingTattooColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lips Color/Fur Pattern:.
         /// </summary>
         public static string LipColor {
@@ -1015,6 +1398,24 @@ namespace ConceptMatrix.Resx {
         public static string LipColorToolTip {
             get {
                 return ResourceManager.GetString("LipColorToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lips Color.
+        /// </summary>
+        public static string LipsColor {
+            get {
+                return ResourceManager.GetString("LipsColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load Gearset.
+        /// </summary>
+        public static string LoadGearset {
+            get {
+                return ResourceManager.GetString("LoadGearset", resourceCulture);
             }
         }
         
@@ -1071,6 +1472,60 @@ namespace ConceptMatrix.Resx {
         public static string LockFacialAnimationToolTip {
             get {
                 return ResourceManager.GetString("LockFacialAnimationToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main Hand:.
+        /// </summary>
+        public static string MainHand {
+            get {
+                return ResourceManager.GetString("MainHand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main Hand Color.
+        /// </summary>
+        public static string MainHandColor {
+            get {
+                return ResourceManager.GetString("MainHandColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Main Hand Scale.
+        /// </summary>
+        public static string MainHandScale {
+            get {
+                return ResourceManager.GetString("MainHandScale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Controls the XYZ Scale of the entity&apos;s main hand weapon.&amp;#xD;&amp;#xA;&amp;#x2022; This can be used to resize main hand props as well, but does not affect the size of &apos;vfx items&apos; that appear temporarily during certain emotes, such as the Tomestone..
+        /// </summary>
+        public static string MainHandScaleToolTip {
+            get {
+                return ResourceManager.GetString("MainHandScaleToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any weapon on the selected actor.&amp;#xD;&amp;#xA;&amp;#x2022; If you want their hands to be empty, either equip the &apos;Emperor&apos;s New Fists&apos;, or use Main Hand Scale and/or Off Hand Scale in the Right Pane..
+        /// </summary>
+        public static string MainHandToolTip {
+            get {
+                return ResourceManager.GetString("MainHandToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Model ID.
+        /// </summary>
+        public static string ModelID {
+            get {
+                return ResourceManager.GetString("ModelID", resourceCulture);
             }
         }
         
@@ -1176,6 +1631,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Neck:.
+        /// </summary>
+        public static string Neck {
+            get {
+                return ResourceManager.GetString("Neck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any necklace on the selected actor..
+        /// </summary>
+        public static string NeckToolTip {
+            get {
+                return ResourceManager.GetString("NeckToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Nose Type:.
         /// </summary>
         public static string NoseType {
@@ -1194,6 +1667,78 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Model:.
+        /// </summary>
+        public static string NPCModel {
+            get {
+                return ResourceManager.GetString("NPCModel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NPC Outfits &amp; Appearances.
+        /// </summary>
+        public static string NPCOutfit {
+            get {
+                return ResourceManager.GetString("NPCOutfit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Opens a fly-out search window on the right that allows you to search for NPCs by name. &amp;#xD;&amp;#xA;&amp;#x2022; You will need to use Actor Refresh after clicking an entry to assume their appearance. &amp;#xD;&amp;#xA;&amp;#x2022; Some NPCs, such as beast tribes, Zenos and a few others are not in this section because they are classified as Demi-Humans. They can be found by searching Model Type on the first tab..
+        /// </summary>
+        public static string NPCOutfitToolTip {
+            get {
+                return ResourceManager.GetString("NPCOutfitToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Off Hand:.
+        /// </summary>
+        public static string OffHand {
+            get {
+                return ResourceManager.GetString("OffHand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Off Hand Color.
+        /// </summary>
+        public static string OffHandColor {
+            get {
+                return ResourceManager.GetString("OffHandColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Off Hand Scale.
+        /// </summary>
+        public static string OffHandScale {
+            get {
+                return ResourceManager.GetString("OffHandScale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Controls the XYZ Scale of the entity&apos;s off hand weapon.&amp;#xD;&amp;#xA;&amp;#x2022; This affects equipment such as a Shield, Quiver, Aetherpack, Sleeve, Katana Sheath, Focus and Left Hand Dagger or Fist..
+        /// </summary>
+        public static string OffHandScaleToolTip {
+            get {
+                return ResourceManager.GetString("OffHandScaleToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip an off hand weapon. &amp;#xD;&amp;#xA;&amp;#x2022; In order to find an applicable off hand (except for shields), you need to search for the main hand equipment using the off hand &apos;View&apos; button. For example to find a Sheath or Quiver, you need to search for the Katana or Bow that goes with it..
+        /// </summary>
+        public static string OffHandToolTip {
+            get {
+                return ResourceManager.GetString("OffHandToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Overall Scale:.
         /// </summary>
         public static string OverallScale {
@@ -1208,6 +1753,24 @@ namespace ConceptMatrix.Resx {
         public static string OverallScaleToolTip {
             get {
                 return ResourceManager.GetString("OverallScaleToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Posing Matrix.
+        /// </summary>
+        public static string PosingMatrix {
+            get {
+                return ResourceManager.GetString("PosingMatrix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to R.
+        /// </summary>
+        public static string R {
+            get {
+                return ResourceManager.GetString("R", resourceCulture);
             }
         }
         
@@ -1270,6 +1833,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Red:.
+        /// </summary>
+        public static string Red {
+            get {
+                return ResourceManager.GetString("Red", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Red Glow:.
+        /// </summary>
+        public static string RedGlow {
+            get {
+                return ResourceManager.GetString("RedGlow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Relative XYZ Pos:.
         /// </summary>
         public static string RelativeXYZPos {
@@ -1309,6 +1890,42 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Reset.
+        /// </summary>
+        public static string ResetButton {
+            get {
+                return ResourceManager.GetString("ResetButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Right Eye Color.
+        /// </summary>
+        public static string RightEyeColor {
+            get {
+                return ResourceManager.GetString("RightEyeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Right Ring:.
+        /// </summary>
+        public static string RightRing {
+            get {
+                return ResourceManager.GetString("RightRing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any ring on the selected actors right hand..
+        /// </summary>
+        public static string RightRingToolTip {
+            get {
+                return ResourceManager.GetString("RightRingToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rotation Sliders:.
         /// </summary>
         public static string RotationSliders {
@@ -1327,6 +1944,15 @@ namespace ConceptMatrix.Resx {
         public static string RotationSlidersToolTip {
             get {
                 return ResourceManager.GetString("RotationSlidersToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Gearset.
+        /// </summary>
+        public static string SaveGearset {
+            get {
+                return ResourceManager.GetString("SaveGearset", resourceCulture);
             }
         }
         
@@ -1367,6 +1993,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Skin Color.
+        /// </summary>
+        public static string SkinColor {
+            get {
+                return ResourceManager.GetString("SkinColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Skintone:.
         /// </summary>
         public static string Skintone {
@@ -1381,6 +2016,29 @@ namespace ConceptMatrix.Resx {
         public static string SkinToneToolTip {
             get {
                 return ResourceManager.GetString("SkinToneToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to GPose
+        ///Status Effects:.
+        /// </summary>
+        public static string StatusEffect {
+            get {
+                return ResourceManager.GetString("StatusEffect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to apply non-standard status VFX to entities in GPose.
+        ///1. Activate one of the basic Statuses in the GPose menu (Such as Pyretic)
+        ///2. Select the new VFX you want from the drop-down menu.
+        ///3. Remove the Status you selected using the GPose menu.
+        ///• To choose a new effect or remove the current one, hit Reset or overwrite it with another Status (Such as Deep Freeze)..
+        /// </summary>
+        public static string StatusEffectToolTip {
+            get {
+                return ResourceManager.GetString("StatusEffectToolTip", resourceCulture);
             }
         }
         
@@ -1431,6 +2089,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Transformation Data.
+        /// </summary>
+        public static string TransformationData {
+            get {
+                return ResourceManager.GetString("TransformationData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Transparency:.
         /// </summary>
         public static string Transparency {
@@ -1447,6 +2114,15 @@ namespace ConceptMatrix.Resx {
         public static string TransparencyToolTip {
             get {
                 return ResourceManager.GetString("TransparencyToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Twitter.
+        /// </summary>
+        public static string Twitter {
+            get {
+                return ResourceManager.GetString("Twitter", resourceCulture);
             }
         }
         
@@ -1469,11 +2145,29 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Variant.
+        /// </summary>
+        public static string Variant {
+            get {
+                return ResourceManager.GetString("Variant", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to View.
         /// </summary>
         public static string View {
             get {
                 return ResourceManager.GetString("View", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Visual Effects.
+        /// </summary>
+        public static string VisualEffect {
+            get {
+                return ResourceManager.GetString("VisualEffect", resourceCulture);
             }
         }
         
@@ -1492,6 +2186,61 @@ namespace ConceptMatrix.Resx {
         public static string VoiceTypeToolTip {
             get {
                 return ResourceManager.GetString("VoiceTypeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wet:.
+        /// </summary>
+        public static string Wet {
+            get {
+                return ResourceManager.GetString("Wet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gives the target entity the effect that you get from being in water, or in rain.
+        ///•  This effect will wear off over time if toggled off..
+        /// </summary>
+        public static string WetToolTip {
+            get {
+                return ResourceManager.GetString("WetToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to World.
+        /// </summary>
+        public static string World {
+            get {
+                return ResourceManager.GetString("World", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wrists:.
+        /// </summary>
+        public static string Wrists {
+            get {
+                return ResourceManager.GetString("Wrists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows you to equip any bracelet on the selected actor..
+        /// </summary>
+        public static string WristsToolTIp {
+            get {
+                return ResourceManager.GetString("WristsToolTIp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to X:.
+        /// </summary>
+        public static string X {
+            get {
+                return ResourceManager.GetString("X", resourceCulture);
             }
         }
         
@@ -1535,6 +2284,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Y:.
+        /// </summary>
+        public static string Y {
+            get {
+                return ResourceManager.GetString("Y", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Y Position:.
         /// </summary>
         public static string YPos {
@@ -1574,11 +2332,38 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Z:.
+        /// </summary>
+        public static string Z {
+            get {
+                return ResourceManager.GetString("Z", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Zero.
         /// </summary>
         public static string Zero {
             get {
                 return ResourceManager.GetString("Zero", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zero Scale.
+        /// </summary>
+        public static string ZeroScale {
+            get {
+                return ResourceManager.GetString("ZeroScale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sets the XYZ Scale to 0, effectively rendering it invisible. &amp;#xD;&amp;#xA;&amp;#x2022; You can undo this by inputing &apos;1.0&apos; in each of the fields..
+        /// </summary>
+        public static string ZeroScaleToolTip {
+            get {
+                return ResourceManager.GetString("ZeroScaleToolTip", resourceCulture);
             }
         }
         

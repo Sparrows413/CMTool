@@ -18,22 +18,22 @@
         Height="650" Width="1115" Loaded="MetroWindow_Loaded" Icon="cmtool-icon.ico" ResizeMode="CanMinimize">
     <Grid>
         <TabControl TabStripPlacement="Top" Margin="0,48,0,0" Background="{DynamicResource MaterialDesignPaper}" DataContext="{Binding Path=CharacterDetails}">
-            <TabItem Header="Actor Data">
+            <TabItem Header="{Binding Source={x:Static resx:UIStringsContent.ActorData}}">
                 <Views:CharacterDetailsView Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="530"/>
             </TabItem>
-            <TabItem Header="Actor Properties">
+            <TabItem Header="{Binding Source={x:Static resx:UIStringsContent.ActorProperties}}">
                 <Views:CharacterDetailsView4 Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="530"/>
             </TabItem>
-            <TabItem Header="Equipment">
+            <TabItem Header="{Binding Source={x:Static resx:UIStringsContent.Equipment}}">
                 <Views:CharacterDetailsView2 Margin="0,4,-1,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="530"/>
             </TabItem>
-            <TabItem Header="Posing Matrix">
+            <TabItem Header="{Binding Source={x:Static resx:UIStringsContent.PosingMatrix}}">
                 <Views:CharacterDetailsView5 Margin="0,4,-1,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="530"/>
             </TabItem>
-            <TabItem Header="World">
+            <TabItem Header="{Binding Source={x:Static resx:UIStringsContent.World}}">
                 <Views:CharacterDetailsView3 Margin="0,4,-1,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="530"/>
             </TabItem>
-            <TabItem Header="About">
+            <TabItem Header="{Binding Source={x:Static resx:UIStringsContent.About}}">
                 <Views:AboutView Margin="0" HorizontalAlignment="Left" Width="1102" Height="530"/>
             </TabItem>
             <TabItem Header="&#x1F3A8;">
@@ -62,7 +62,7 @@
         <Button HorizontalAlignment="Left" Style="{DynamicResource MaterialDesignFlatButton}" VerticalAlignment="Top" x:Name="TwitterButton" Margin="910,-45,0,0" Width="131" Click="TwitterButton_Click" Height="45" Foreground="White" BorderBrush="#7F000000" BorderThickness="1,0" Padding="16,20,16,4" IsTabStop="False">
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Twitter" Padding="0" />
-                <TextBlock Margin="8 0 0 0" VerticalAlignment="Center" Padding="0"><Run Text="Twitter"/></TextBlock>
+                <TextBlock Margin="8 0 0 0" VerticalAlignment="Center" Padding="0" Text="{Binding Source={x:Static resx:UIStringsContent.Twitter}}"/>
             </StackPanel>
         </Button>
         <Button x:Name="Save" ToolTip="{Binding Source={x:Static resx:UIStringsContent.SaveMainWindowToolTip}}" Style="{StaticResource MaterialDesignRaisedAccentButton}" materialDesign:ShadowAssist.ShadowDepth="Depth3" Content="{Binding Source={x:Static resx:UIStringsContent.SaveMainWindow}}" HorizontalAlignment="Left" Margin="755,7,0,0" VerticalAlignment="Top" Width="145" Click="Save_Click" IsTabStop="False"/>
@@ -71,13 +71,13 @@
         <Button HorizontalAlignment="Left" Style="{DynamicResource MaterialDesignFlatButton}" VerticalAlignment="Top" x:Name="AlwaysOnTop" Margin="626,-45,0,0" Width="153" Click="AlwaysOnTop_Click" Height="45" Foreground="White" BorderBrush="#7F000000" BorderThickness="1,0" Padding="16,20,16,4" IsTabStop="False">
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="{Binding Path=AOTToggleStatus, FallbackValue=ToggleSwitchOffOutline}" Padding="0" Foreground="{Binding ToggleForeground, FallbackValue=#7FFFFFFF}" />
-                <TextBlock Margin="8 0 0 0" VerticalAlignment="Center" Padding="0">Always on Top</TextBlock>
+                <TextBlock Margin="8 0 0 0" VerticalAlignment="Center" Padding="0" Text="{Binding Source={x:Static resx:UIStringsContent.AlwaysOnTopButton}}" />
             </StackPanel>
         </Button>
         <Button HorizontalAlignment="Left" Style="{DynamicResource MaterialDesignFlatButton}" VerticalAlignment="Top" x:Name="DiscordButton" Margin="778,-45,0,0" Width="133" Click="DiscordButton_Click" Height="45" Foreground="White" BorderBrush="#7F000000" BorderThickness="1,0" Padding="16,20,16,4" IsTabStop="False">
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Discord" Padding="0" />
-                <TextBlock Margin="8 0 0 0" VerticalAlignment="Center" Padding="0" Text="Discord"/>
+                <TextBlock Margin="8 0 0 0" VerticalAlignment="Center" Padding="0" Text="{Binding Source={x:Static resx:UIStringsContent.Discord}}"/>
             </StackPanel>
         </Button>
         <ToggleButton x:Name="TargetButton" Style="{StaticResource MaterialDesignSwitchToggleButton}" IsChecked="{Binding CharacterDetails.CharacterDetails.TargetModeActive}" Margin="455,25,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Height="21" Checked="TargetButton_Checked" Unchecked="TargetButton_Unchecked" IsTabStop="False" />

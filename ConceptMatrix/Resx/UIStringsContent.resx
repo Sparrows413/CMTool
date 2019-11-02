@@ -390,9 +390,18 @@
   <data name="Language" xml:space="preserve">
     <value>EN</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="ActorData" xml:space="preserve">
+    <value>Actor Data</value>
+  </data>
   <data name="ActorEntityListToolTip" xml:space="preserve">
     <value>Displays the list of targetable entities in the area around you.
 • This list is populated based on distance from the player, and can potentially shift if any entities change positions, including minions.</value>
+  </data>
+  <data name="ActorProperties" xml:space="preserve">
+    <value>Actor Properties</value>
   </data>
   <data name="ActorRefreshButton" xml:space="preserve">
     <value>Actor Refresh</value>
@@ -400,11 +409,51 @@
   <data name="ActorRefreshToolTip" xml:space="preserve">
     <value>Refresh the selected actor, reloading it based on the changes you've made.</value>
   </data>
+  <data name="ActorScale" xml:space="preserve">
+    <value>Actor Scale</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="AlwaysOnTopButton" xml:space="preserve">
+    <value>Always On Top</value>
+  </data>
   <data name="AnimSpeedToolTip" xml:space="preserve">
     <value>Modifies the Animation Speed of the selected actor.</value>
   </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="ArrayOfBytes" xml:space="preserve">
+    <value>Array of Bytes</value>
+  </data>
+  <data name="ArrayOfBytesToolTip" xml:space="preserve">
+    <value>Contains data about the selected Entity.
+• You can copy-paste data into this field and hit Apply.</value>
+  </data>
+  <data name="B" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Base" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Blue:</value>
+  </data>
+  <data name="BlueGlow" xml:space="preserve">
+    <value>Blue Glow:</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Body:</value>
+  </data>
   <data name="BodyToolTip" xml:space="preserve">
     <value>Changes the Body Type of the selected actor.</value>
+  </data>
+  <data name="BodyToolTip2" xml:space="preserve">
+    <value>Allows you to equip any bodypiece on the selected actor.</value>
+  </data>
+  <data name="Brightness" xml:space="preserve">
+    <value>Brightness:</value>
   </data>
   <data name="BustSizeToolTip" xml:space="preserve">
     <value>Changes the Bust Size of the selected actor.</value>
@@ -431,14 +480,45 @@
 • The entity's skeleton will be morphed to fit the selected race. This stretching or shrinking is unavoidable.
 • You can use Actor Refresh if you want to become an abomination for fun.</value>
   </data>
+  <data name="Discord" xml:space="preserve">
+    <value>Discord</value>
+  </data>
+  <data name="Drenched" xml:space="preserve">
+    <value>Drenched:</value>
+  </data>
+  <data name="DrenchedToolTip" xml:space="preserve">
+    <value>Gives the selected entity a much more pronounced wetness effect.
+• Same as Wet, this effect goes away over time.</value>
+  </data>
+  <data name="Dyes" xml:space="preserve">
+    <value>Dyes</value>
+  </data>
   <data name="EarMuscleTailSizeToolTip" xml:space="preserve">
     <value>Changes the Ear, Muscle, and Tail Size of the selected actor.</value>
+  </data>
+  <data name="Ears" xml:space="preserve">
+    <value>Ears:</value>
+  </data>
+  <data name="EarsToolTip" xml:space="preserve">
+    <value>Allows you to equip any earrings on the selected actor.</value>
   </data>
   <data name="EarTailScaleToolTip" xml:space="preserve">
     <value>Modifies the Ear and Tail Scale of the selected actor.</value>
   </data>
   <data name="EarTailTypeToolTip" xml:space="preserve">
     <value>Changes the Ear and Tail of the selected actor.</value>
+  </data>
+  <data name="EntityType" xml:space="preserve">
+    <value>Entity Type:</value>
+  </data>
+  <data name="EntityTypeToolTip" xml:space="preserve">
+    <value>For Advanced Users Only!
+• This will change the Entity type of the selected entity.
+• This can lead to unpredictable and unwanted behavior for some entities.
+•  Changing some NPCs to Type 1 will allow them to be targetable in GPose.</value>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Equipment</value>
   </data>
   <data name="EyeBrowsToolTip" xml:space="preserve">
     <value>Changes the Eyebrows Type of the selected actor.</value>
@@ -460,6 +540,12 @@
   </data>
   <data name="FacialFeaturesToolTip" xml:space="preserve">
     <value>Changes the Facial Features of the selected actor.</value>
+  </data>
+  <data name="Feet" xml:space="preserve">
+    <value>Feet:</value>
+  </data>
+  <data name="FeetToolTip" xml:space="preserve">
+    <value>Allows you to equip any footwear on the selected actor.</value>
   </data>
   <data name="FindProcessButton" xml:space="preserve">
     <value>Reload Process</value>
@@ -489,6 +575,9 @@
 • Same as Freeze Pos, make sure to toggle off Freeze Rot before switching entities in GPose. 
 • Required for using Numerical direct input or Rotation Sliders.</value>
   </data>
+  <data name="G" xml:space="preserve">
+    <value>G</value>
+  </data>
   <data name="GenderToolTip" xml:space="preserve">
     <value>Changes the Gender of the selected actor.</value>
   </data>
@@ -499,11 +588,32 @@
     <value>Allows for certain values such as XYZ Position, Rotation and Animation to be changed for your currently selected entity in GPose.
 • GPose mode and Target Mode both toggle on at the same time. Make sure not to have Target Mode already toggled on, or it will toggle off instead.</value>
   </data>
+  <data name="Green" xml:space="preserve">
+    <value>Green:</value>
+  </data>
+  <data name="GreenGlow" xml:space="preserve">
+    <value>Green Glow:</value>
+  </data>
+  <data name="HairColor2" xml:space="preserve">
+    <value>Hair Color</value>
+  </data>
   <data name="HairColorToolTip" xml:space="preserve">
     <value>Changes the Hair Color of the selected actor.</value>
   </data>
   <data name="HairStyleToolTip" xml:space="preserve">
     <value>Changes the Hairstyle of the selected actor.</value>
+  </data>
+  <data name="Hands" xml:space="preserve">
+    <value>Hands:</value>
+  </data>
+  <data name="HandsToolTip" xml:space="preserve">
+    <value>Allows you to equip any handwear on the selected actor.</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Head:</value>
+  </data>
+  <data name="HeadToolTip" xml:space="preserve">
+    <value>Allows you to equip any headpiece on the selected actor.</value>
   </data>
   <data name="HeadTypeToolTip" xml:space="preserve">
     <value>Changes the Head Type of the selected actor.</value>
@@ -513,6 +623,9 @@
   </data>
   <data name="HighLightButtonToolTip" xml:space="preserve">
     <value>Toggles Highlights for the selected actor.</value>
+  </data>
+  <data name="HighlightsColor" xml:space="preserve">
+    <value>Highlights Color</value>
   </data>
   <data name="HighlightsToolTip" xml:space="preserve">
     <value>Changes the Highlights Color of the selected actor.</value>
@@ -529,11 +642,35 @@
   <data name="JobIconToolTip" xml:space="preserve">
     <value>Changes the Job Icon of the selected party member in your party list.</value>
   </data>
+  <data name="LeftEyeColor" xml:space="preserve">
+    <value>Left Eye Color</value>
+  </data>
+  <data name="LeftRing" xml:space="preserve">
+    <value>Left Ring:</value>
+  </data>
+  <data name="LeftRingToolTip" xml:space="preserve">
+    <value>Allows you to equip any ring on the selected actors left hand.</value>
+  </data>
+  <data name="Legs" xml:space="preserve">
+    <value>Legs:</value>
+  </data>
+  <data name="LegsToolTip" xml:space="preserve">
+    <value>Allows you to equip any leggings on the selected actor.</value>
+  </data>
   <data name="LimbalOrTattooToolTip" xml:space="preserve">
     <value>Changes the Limbal Ring and Tattoo Color of the selected actor.</value>
   </data>
+  <data name="LimbalRingTattooColor" xml:space="preserve">
+    <value>Limbal Ring / Tattoos Color</value>
+  </data>
   <data name="LipColorToolTip" xml:space="preserve">
     <value>Changes the Lips Color and Fur Pattern of the selected actor.</value>
+  </data>
+  <data name="LipsColor" xml:space="preserve">
+    <value>Lips Color</value>
+  </data>
+  <data name="LoadGearset" xml:space="preserve">
+    <value>Load Gearset</value>
   </data>
   <data name="LoadMainWindow" xml:space="preserve">
     <value>Load Appearance</value>
@@ -552,6 +689,24 @@
     <value>Locks the Facial Animation of the selected actor.
 • To properly lock the facial animation of the selected actor, you need to toggle this on, freeze the option, and then set Anim Speed to Zero.</value>
   </data>
+  <data name="MainHand" xml:space="preserve">
+    <value>Main Hand:</value>
+  </data>
+  <data name="MainHandColor" xml:space="preserve">
+    <value>Main Hand Color</value>
+  </data>
+  <data name="MainHandScale" xml:space="preserve">
+    <value>Main Hand Scale</value>
+  </data>
+  <data name="MainHandScaleToolTip" xml:space="preserve">
+    <value>Controls the XYZ Scale of the entity's main hand weapon.&amp;#xD;&amp;#xA;&amp;#x2022; This can be used to resize main hand props as well, but does not affect the size of 'vfx items' that appear temporarily during certain emotes, such as the Tomestone.</value>
+  </data>
+  <data name="MainHandToolTip" xml:space="preserve">
+    <value>Allows you to equip any weapon on the selected actor.&amp;#xD;&amp;#xA;&amp;#x2022; If you want their hands to be empty, either equip the 'Emperor's New Fists', or use Main Hand Scale and/or Off Hand Scale in the Right Pane.</value>
+  </data>
+  <data name="ModelID" xml:space="preserve">
+    <value>Model ID</value>
+  </data>
   <data name="ModelTypeButtonToolTip" xml:space="preserve">
     <value>Opens a flyout menu on the right side that allows you to search for Monsters, Demi-Humans, Prop Entities and Entity-Based Effects.
 • Some NPCs are found under this selection because they are classified as Demi-Humans, such as Beast Tribes, Zenos, Thordan/Knights, etc.
@@ -569,11 +724,47 @@
   <data name="NameToolTip" xml:space="preserve">
     <value>Modifies the display name of the selected actor.</value>
   </data>
+  <data name="Neck" xml:space="preserve">
+    <value>Neck:</value>
+  </data>
+  <data name="NeckToolTip" xml:space="preserve">
+    <value>Allows you to equip any necklace on the selected actor.</value>
+  </data>
   <data name="NoseTypeToolTip" xml:space="preserve">
     <value>Changes the Nose Type of the selected actor.</value>
   </data>
+  <data name="NPCModel" xml:space="preserve">
+    <value>Model:</value>
+  </data>
+  <data name="NPCOutfit" xml:space="preserve">
+    <value>NPC Outfits &amp; Appearances</value>
+  </data>
+  <data name="NPCOutfitToolTip" xml:space="preserve">
+    <value>Opens a fly-out search window on the right that allows you to search for NPCs by name. &amp;#xD;&amp;#xA;&amp;#x2022; You will need to use Actor Refresh after clicking an entry to assume their appearance. &amp;#xD;&amp;#xA;&amp;#x2022; Some NPCs, such as beast tribes, Zenos and a few others are not in this section because they are classified as Demi-Humans. They can be found by searching Model Type on the first tab.</value>
+  </data>
+  <data name="OffHand" xml:space="preserve">
+    <value>Off Hand:</value>
+  </data>
+  <data name="OffHandColor" xml:space="preserve">
+    <value>Off Hand Color</value>
+  </data>
+  <data name="OffHandScale" xml:space="preserve">
+    <value>Off Hand Scale</value>
+  </data>
+  <data name="OffHandScaleToolTip" xml:space="preserve">
+    <value>Controls the XYZ Scale of the entity's off hand weapon.&amp;#xD;&amp;#xA;&amp;#x2022; This affects equipment such as a Shield, Quiver, Aetherpack, Sleeve, Katana Sheath, Focus and Left Hand Dagger or Fist.</value>
+  </data>
+  <data name="OffHandToolTip" xml:space="preserve">
+    <value>Allows you to equip an off hand weapon. &amp;#xD;&amp;#xA;&amp;#x2022; In order to find an applicable off hand (except for shields), you need to search for the main hand equipment using the off hand 'View' button. For example to find a Sheath or Quiver, you need to search for the Katana or Bow that goes with it.</value>
+  </data>
   <data name="OverallScaleToolTip" xml:space="preserve">
     <value>Modifies the Overall Scale of the selected actor.</value>
+  </data>
+  <data name="PosingMatrix" xml:space="preserve">
+    <value>Posing Matrix</value>
+  </data>
+  <data name="R" xml:space="preserve">
+    <value>R</value>
   </data>
   <data name="RaceToolTip" xml:space="preserve">
     <value>Changes the Race of the selected actor.</value>
@@ -588,6 +779,12 @@
 • LMB controls Y-axis rotation.
 • MMB controls Z-axis rotation.</value>
   </data>
+  <data name="Red" xml:space="preserve">
+    <value>Red:</value>
+  </data>
+  <data name="RedGlow" xml:space="preserve">
+    <value>Red Glow:</value>
+  </data>
   <data name="RelativeXYZPosToolTip" xml:space="preserve">
     <value>This toggle will make all XYZ movements relative to the entity being targeted, and not absolute based on the gameworld.
 • This setting is defaulted to on, and its state is saved between sessions.</value>
@@ -597,12 +794,27 @@
 • This setting is defaulted to on, and its state is saved between sessions.
 • Only affects the Realtime Rotation Cube.</value>
   </data>
+  <data name="ResetButton" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="RightEyeColor" xml:space="preserve">
+    <value>Right Eye Color</value>
+  </data>
+  <data name="RightRing" xml:space="preserve">
+    <value>Right Ring:</value>
+  </data>
+  <data name="RightRingToolTip" xml:space="preserve">
+    <value>Allows you to equip any ring on the selected actors right hand.</value>
+  </data>
   <data name="RotationSlidersToolTip" xml:space="preserve">
     <value>This toggle will switch between Rotation Sliders and Numerical direct input.
 •This setting is defaulted to on, and its state is saved between sessions.
 • Turning it off will turn the XYZ Rotation sliders into numerical values.
 • Each input will accept a value between 0 and 360. 
 • Both Rotation Sliders and Numerical direct input require Rotation to be frozen.</value>
+  </data>
+  <data name="SaveGearset" xml:space="preserve">
+    <value>Save Gearset</value>
   </data>
   <data name="SaveMainWindow" xml:space="preserve">
     <value>Save Appearance</value>
@@ -616,8 +828,22 @@
   <data name="SavePointToolTip" xml:space="preserve">
     <value>Creates a 'Backup' state that you can load later.</value>
   </data>
+  <data name="SkinColor" xml:space="preserve">
+    <value>Skin Color</value>
+  </data>
   <data name="SkinToneToolTip" xml:space="preserve">
     <value>Changes the Skintone of the selected actor.</value>
+  </data>
+  <data name="StatusEffect" xml:space="preserve">
+    <value>GPose
+Status Effects:</value>
+  </data>
+  <data name="StatusEffectToolTip" xml:space="preserve">
+    <value>Allows you to apply non-standard status VFX to entities in GPose.
+1. Activate one of the basic Statuses in the GPose menu (Such as Pyretic)
+2. Select the new VFX you want from the drop-down menu.
+3. Remove the Status you selected using the GPose menu.
+• To choose a new effect or remove the current one, hit Reset or overwrite it with another Status (Such as Deep Freeze).</value>
   </data>
   <data name="TargetMode" xml:space="preserve">
     <value>Target Mode:</value>
@@ -629,10 +855,16 @@
   <data name="TitleToolTip" xml:space="preserve">
     <value>Changes the Title of the selected actor.</value>
   </data>
+  <data name="TransformationData" xml:space="preserve">
+    <value>Transformation Data</value>
+  </data>
   <data name="TransparencyToolTip" xml:space="preserve">
     <value>Modifies the transparency of the selected entity.
 • Reducing the transparency of an actor does not affect their main or offhand weapons. You can set the XYZ scale of their weapons to 0 in the Equipment tab.
 • Setting this to 0 for an entity in GPose can cause the system to forget that they're targetable. If you plan to still use them, set it to 0.03.</value>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>Twitter</value>
   </data>
   <data name="UncheckButton" xml:space="preserve">
     <value>Unfreeze All</value>
@@ -640,8 +872,33 @@
   <data name="UncheckButtonToolTip" xml:space="preserve">
     <value>Uncheck and unfreeze all selections.</value>
   </data>
+  <data name="Variant" xml:space="preserve">
+    <value>Variant</value>
+  </data>
+  <data name="VisualEffect" xml:space="preserve">
+    <value>Visual Effects</value>
+  </data>
   <data name="VoiceTypeToolTip" xml:space="preserve">
     <value>Changes the Voice Type of the selected actor.</value>
+  </data>
+  <data name="Wet" xml:space="preserve">
+    <value>Wet:</value>
+  </data>
+  <data name="WetToolTip" xml:space="preserve">
+    <value>Gives the target entity the effect that you get from being in water, or in rain.
+•  This effect will wear off over time if toggled off.</value>
+  </data>
+  <data name="World" xml:space="preserve">
+    <value>World</value>
+  </data>
+  <data name="Wrists" xml:space="preserve">
+    <value>Wrists:</value>
+  </data>
+  <data name="WristsToolTIp" xml:space="preserve">
+    <value>Allows you to equip any bracelet on the selected actor.</value>
+  </data>
+  <data name="X" xml:space="preserve">
+    <value>X:</value>
   </data>
   <data name="XPosToolTip" xml:space="preserve">
     <value>Modifies the X Position of the selected actor.
@@ -652,6 +909,9 @@
 • You may need to Freeze the animations of your actor to properly apply this in GPose.
 • Both Rotation Sliders and Numerical direct input require Rotation to be frozen.</value>
   </data>
+  <data name="Y" xml:space="preserve">
+    <value>Y:</value>
+  </data>
   <data name="YPosToolTip" xml:space="preserve">
     <value>Modifies the Y Position of the selected actor.
 • You may need to Freeze the animations of your actor to properly apply this in GPose.</value>
@@ -660,6 +920,15 @@
     <value>Modifies the Y Rotation of the selected actor. 
 • You may need to Freeze the animations of your actor to properly apply this in GPose.
 • Both Rotation Sliders and Numerical direct input require Rotation to be frozen.</value>
+  </data>
+  <data name="Z" xml:space="preserve">
+    <value>Z:</value>
+  </data>
+  <data name="ZeroScale" xml:space="preserve">
+    <value>Zero Scale</value>
+  </data>
+  <data name="ZeroScaleToolTip" xml:space="preserve">
+    <value>Sets the XYZ Scale to 0, effectively rendering it invisible. &amp;#xD;&amp;#xA;&amp;#x2022; You can undo this by inputing '1.0' in each of the fields.</value>
   </data>
   <data name="ZPosToolTip" xml:space="preserve">
     <value>Modifies the Z Position of the selected actor.
