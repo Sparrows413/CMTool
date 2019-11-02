@@ -41,7 +41,9 @@ namespace ConceptMatrix
         public MainWindow()
         {
             var settings = SaveSettings.Default;
+
             LanguageSelection();
+
             var ci = new CultureInfo(settings.CultureSet)
             {
                 NumberFormat = { NumberDecimalSeparator = "." }
@@ -50,6 +52,7 @@ namespace ConceptMatrix
             CultureInfo.DefaultThreadCurrentUICulture = ci;
             CultureInfo.CurrentCulture = ci;
             CultureInfo.CurrentUICulture = ci;
+
             ServicePointManager.SecurityProtocol = (ServicePointManager.SecurityProtocol & SecurityProtocolType.Ssl3) | (SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12);
 
             // Call the update method.

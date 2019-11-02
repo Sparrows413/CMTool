@@ -33,7 +33,7 @@
         <TextBox Text="{Binding Path=CharacterDetails.WeaponBase.value, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="105,5,0,0" VerticalAlignment="Top" HorizontalAlignment="left" Width="60" TextAlignment="Center" PreviewTextInput="DigitCheckInput" Height="38" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
             <materialDesign:HintAssist.Hint>
                 <StackPanel Orientation="Horizontal"  Margin="0 0 0 0" >
-                    <TextBlock><Run Text="{Binding Source={x:Static resx:UIStringsContent.Base}}"/></TextBlock>
+                    <TextBlock Text="{Binding Source={x:Static resx:UIStringsContent.Base}}"/>
                 </StackPanel>
             </materialDesign:HintAssist.Hint>
         </TextBox>
@@ -269,7 +269,7 @@
         <TextBox Text="{Binding Path=CharacterDetails.RFingerVa.value, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="475,405,0,0" VerticalAlignment="Top" HorizontalAlignment="left" Width="60" TextAlignment="Center" PreviewTextInput="DigitCheckInput" Height="38" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
             <materialDesign:HintAssist.Hint>
                 <StackPanel Orientation="Horizontal"  Margin="0 0 0 0" >
-                    <TextBlock><Run Text="{Binding Source={x:Static resx:UIStringsContent.Variant}}"/></TextBlock>
+                    <TextBlock Text="{Binding Source={x:Static resx:UIStringsContent.Variant}}"/>
                 </StackPanel>
             </materialDesign:HintAssist.Hint>
         </TextBox>
@@ -287,7 +287,7 @@
         <TextBox Text="{Binding Path=CharacterDetails.LFingerVa.value, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="475,355,0,0" VerticalAlignment="Top" HorizontalAlignment="left" Width="60" TextAlignment="Center" PreviewTextInput="DigitCheckInput" Height="38" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
             <materialDesign:HintAssist.Hint>
                 <StackPanel Orientation="Horizontal"  Margin="0 0 0 0" >
-                    <TextBlock><Run Text="{Binding Source={x:Static resx:UIStringsContent.Variant}}"/></TextBlock>
+                    <TextBlock Text="{Binding Source={x:Static resx:UIStringsContent.Variant}}"/>
                 </StackPanel>
             </materialDesign:HintAssist.Hint>
         </TextBox>
