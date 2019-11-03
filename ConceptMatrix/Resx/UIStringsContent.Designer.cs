@@ -216,6 +216,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Freeze BGM.
+        /// </summary>
+        public static string BGMFreeze {
+            get {
+                return ResourceManager.GetString("BGMFreeze", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BGM ID.
+        /// </summary>
+        public static string BGMID {
+            get {
+                return ResourceManager.GetString("BGMID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Blue:.
         /// </summary>
         public static string Blue {
@@ -570,6 +588,33 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cam Angle X:.
+        /// </summary>
+        public static string CamAngleX {
+            get {
+                return ResourceManager.GetString("CamAngleX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cam Angle Y:.
+        /// </summary>
+        public static string CamAngleY {
+            get {
+                return ResourceManager.GetString("CamAngleY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Camera Settings.
+        /// </summary>
+        public static string CameraSettings {
+            get {
+                return ResourceManager.GetString("CameraSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Camera View X:.
         /// </summary>
         public static string CameraViewX {
@@ -624,6 +669,42 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cam Rotation:.
+        /// </summary>
+        public static string CamRotation {
+            get {
+                return ResourceManager.GetString("CamRotation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cam Up/Down:.
+        /// </summary>
+        public static string CamUpDown {
+            get {
+                return ResourceManager.GetString("CamUpDown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cam Y Max:.
+        /// </summary>
+        public static string CamYMax {
+            get {
+                return ResourceManager.GetString("CamYMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cam Y Min:.
+        /// </summary>
+        public static string CamYMin {
+            get {
+                return ResourceManager.GetString("CamYMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cheeks:.
         /// </summary>
         public static string Cheeks {
@@ -669,6 +750,51 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Colorfulness:.
+        /// </summary>
+        public static string Colorfulness {
+            get {
+                return ResourceManager.GetString("Colorfulness", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Colorfulness 2:.
+        /// </summary>
+        public static string Colorfulness2 {
+            get {
+                return ResourceManager.GetString("Colorfulness2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contrast:.
+        /// </summary>
+        public static string Contrast {
+            get {
+                return ResourceManager.GetString("Contrast", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contrast 2:.
+        /// </summary>
+        public static string Contrast2 {
+            get {
+                return ResourceManager.GetString("Contrast2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Zoom:.
+        /// </summary>
+        public static string CurrentZoom {
+            get {
+                return ResourceManager.GetString("CurrentZoom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data Path:.
         /// </summary>
         public static string DataPath {
@@ -687,6 +813,15 @@ namespace ConceptMatrix.Resx {
         public static string DataPathToolTip {
             get {
                 return ResourceManager.GetString("DataPathToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default Time.
+        /// </summary>
+        public static string DefaultTime {
+            get {
+                return ResourceManager.GetString("DefaultTime", resourceCulture);
             }
         }
         
@@ -853,6 +988,15 @@ namespace ConceptMatrix.Resx {
         public static string Equipment {
             get {
                 return ResourceManager.GetString("Equipment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exposure:.
+        /// </summary>
+        public static string Exposure {
+            get {
+                return ResourceManager.GetString("Exposure", resourceCulture);
             }
         }
         
@@ -1028,6 +1172,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Filmic:.
+        /// </summary>
+        public static string Filmic {
+            get {
+                return ResourceManager.GetString("Filmic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filters.
+        /// </summary>
+        public static string Filters {
+            get {
+                return ResourceManager.GetString("Filters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reload Process.
         /// </summary>
         public static string FindProcessButton {
@@ -1086,6 +1248,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Field of View:.
+        /// </summary>
+        public static string FoV {
+            get {
+                return ResourceManager.GetString("FoV", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Field of View 2:.
+        /// </summary>
+        public static string FoV2 {
+            get {
+                return ResourceManager.GetString("FoV2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Free Company Tag:.
         /// </summary>
         public static string FreeCompanyTag {
@@ -1109,6 +1289,15 @@ namespace ConceptMatrix.Resx {
         public static string FreeCompanyToolTip {
             get {
                 return ResourceManager.GetString("FreeCompanyToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Freeze All.
+        /// </summary>
+        public static string FreezeAll {
+            get {
+                return ResourceManager.GetString("FreezeAll", resourceCulture);
             }
         }
         
@@ -1164,6 +1353,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Gamma:.
+        /// </summary>
+        public static string Gamma {
+            get {
+                return ResourceManager.GetString("Gamma", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Gender:.
         /// </summary>
         public static string Gender {
@@ -1215,6 +1413,15 @@ namespace ConceptMatrix.Resx {
         public static string GreenGlow {
             get {
                 return ResourceManager.GetString("GreenGlow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group Pose Filters.
+        /// </summary>
+        public static string GroupPoseFilter {
+            get {
+                return ResourceManager.GetString("GroupPoseFilter", resourceCulture);
             }
         }
         
@@ -1278,6 +1485,15 @@ namespace ConceptMatrix.Resx {
         public static string HandsToolTip {
             get {
                 return ResourceManager.GetString("HandsToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HDR:.
+        /// </summary>
+        public static string HDR {
+            get {
+                return ResourceManager.GetString("HDR", resourceCulture);
             }
         }
         
@@ -1609,6 +1825,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Load.
+        /// </summary>
+        public static string LoadButton {
+            get {
+                return ResourceManager.GetString("LoadButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Load Gearset.
         /// </summary>
         public static string LoadGearset {
@@ -1670,6 +1895,15 @@ namespace ConceptMatrix.Resx {
         public static string LockFacialAnimationToolTip {
             get {
                 return ResourceManager.GetString("LockFacialAnimationToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lock Time:.
+        /// </summary>
+        public static string LockTime {
+            get {
+                return ResourceManager.GetString("LockTime", resourceCulture);
             }
         }
         
@@ -1755,6 +1989,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Max Zoom:.
+        /// </summary>
+        public static string MaxZoom {
+            get {
+                return ResourceManager.GetString("MaxZoom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Middle Finger:.
         /// </summary>
         public static string MiddleFinger {
@@ -1769,6 +2012,15 @@ namespace ConceptMatrix.Resx {
         public static string MiddleJoint {
             get {
                 return ResourceManager.GetString("MiddleJoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Min Zoom:.
+        /// </summary>
+        public static string MinZoom {
+            get {
+                return ResourceManager.GetString("MinZoom", resourceCulture);
             }
         }
         
@@ -2081,6 +2333,16 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Prop
+        ///View.
+        /// </summary>
+        public static string PropView {
+            get {
+                return ResourceManager.GetString("PropView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to R.
         /// </summary>
         public static string R {
@@ -2166,6 +2428,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Refresh.
+        /// </summary>
+        public static string RefreshButton {
+            get {
+                return ResourceManager.GetString("RefreshButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Relative XYZ Pos:.
         /// </summary>
         public static string RelativeXYZPos {
@@ -2205,11 +2476,47 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Render Cycle.
+        /// </summary>
+        public static string RenderCycle {
+            get {
+                return ResourceManager.GetString("RenderCycle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove Character Render Limit:.
+        /// </summary>
+        public static string RenderLimit {
+            get {
+                return ResourceManager.GetString("RenderLimit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Render Toggle Switch.
+        /// </summary>
+        public static string RenderToggleToolTip {
+            get {
+                return ResourceManager.GetString("RenderToggleToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reset.
         /// </summary>
         public static string ResetButton {
             get {
                 return ResourceManager.GetString("ResetButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reset to Default.
+        /// </summary>
+        public static string ResetToDefaultButton {
+            get {
+                return ResourceManager.GetString("ResetToDefaultButton", resourceCulture);
             }
         }
         
@@ -2299,6 +2606,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string SaveButton {
+            get {
+                return ResourceManager.GetString("SaveButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Save Gearset.
         /// </summary>
         public static string SaveGearset {
@@ -2349,6 +2665,15 @@ namespace ConceptMatrix.Resx {
         public static string Settings {
             get {
                 return ResourceManager.GetString("Settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to S-HDR:.
+        /// </summary>
+        public static string SHDR {
+            get {
+                return ResourceManager.GetString("SHDR", resourceCulture);
             }
         }
         
@@ -2481,6 +2806,42 @@ namespace ConceptMatrix.Resx {
         public static string ThumbJoint {
             get {
                 return ResourceManager.GetString("ThumbJoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Time Toggle Switch.
+        /// </summary>
+        public static string TimeButtonLockToolTip {
+            get {
+                return ResourceManager.GetString("TimeButtonLockToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Time Control:.
+        /// </summary>
+        public static string TimeControl {
+            get {
+                return ResourceManager.GetString("TimeControl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adjusts the current time for the zone. &amp;#xD;&amp;#xA;&amp;#x2022; Using Time Control while in GPose with &apos;Freeze Time/Weather&apos; toggled on will cycle the phases of the Moon..
+        /// </summary>
+        public static string TimeControlToolTip {
+            get {
+                return ResourceManager.GetString("TimeControlToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Attempts to prevent the time set using Time Control from changing.&amp;#xD;&amp;#xA;&amp;#x2022; This is imprecise, and will still shift slightly over long periods of time..
+        /// </summary>
+        public static string TimeLockToolTip {
+            get {
+                return ResourceManager.GetString("TimeLockToolTip", resourceCulture);
             }
         }
         
@@ -2622,6 +2983,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Vibrance:.
+        /// </summary>
+        public static string Vibrance {
+            get {
+                return ResourceManager.GetString("Vibrance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Viera Lower Ears:.
         /// </summary>
         public static string VieraLowerEars {
@@ -2681,6 +3051,51 @@ namespace ConceptMatrix.Resx {
         public static string Waist {
             get {
                 return ResourceManager.GetString("Waist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Weather:.
+        /// </summary>
+        public static string Weather {
+            get {
+                return ResourceManager.GetString("Weather", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Force Weather:.
+        /// </summary>
+        public static string WeatherForce {
+            get {
+                return ResourceManager.GetString("WeatherForce", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Controls the current weather for your zone.&amp;#xD;&amp;#xA;This method uses instant transitions, and will change as soon as you select a weather from the drop down menu..
+        /// </summary>
+        public static string WeatherForceToolTip {
+            get {
+                return ResourceManager.GetString("WeatherForceToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Weather Select.
+        /// </summary>
+        public static string WeatherSelect {
+            get {
+                return ResourceManager.GetString("WeatherSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Controls the current weather for your zone. &amp;#xD;&amp;#xA;This method uses natural transitions and may a bit of time to take effect..
+        /// </summary>
+        public static string WeatherToolTip {
+            get {
+                return ResourceManager.GetString("WeatherToolTip", resourceCulture);
             }
         }
         

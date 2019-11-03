@@ -29,7 +29,7 @@
             </ComboBox.ItemsPanel>
         </ComboBox>
         <Button Name="MainSearch" materialDesign:ShadowAssist.ShadowDepth="Depth3" Content="{Binding Source={x:Static resx:UIStringsContent.View}}" HorizontalAlignment="Left" Margin="475,5,0,0" VerticalAlignment="Top" Width="65" Click="MainSearch_Click" Height="38"/>
-        <Button x:Name="PropSearch" materialDesign:ShadowAssist.ShadowDepth="Depth3" Content="Prop&#xA;View" HorizontalAlignment="Left" Margin="560,5,0,0" VerticalAlignment="Top" Width="65" FontSize="13" Padding="16,-2,16,0" Click="PropSearch_Click" Height="38"/>
+        <Button x:Name="PropSearch" materialDesign:ShadowAssist.ShadowDepth="Depth3" Content="{Binding Source={x:Static resx:UIStringsContent.PropView}}" HorizontalAlignment="Left" Margin="560,5,0,0" VerticalAlignment="Top" Width="65" FontSize="13" Padding="16,-2,16,0" Click="PropSearch_Click" Height="38"/>
         <TextBox Text="{Binding Path=CharacterDetails.WeaponBase.value, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="105,5,0,0" VerticalAlignment="Top" HorizontalAlignment="left" Width="60" TextAlignment="Center" PreviewTextInput="DigitCheckInput" Height="38" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}">
             <materialDesign:HintAssist.Hint>
                 <StackPanel Orientation="Horizontal"  Margin="0 0 0 0" >
@@ -76,7 +76,7 @@
             </ComboBox.ItemsPanel>
         </ComboBox>
         <Button Name="OffSearch" materialDesign:ShadowAssist.ShadowDepth="Depth3" Content="{Binding Source={x:Static resx:UIStringsContent.View}}" HorizontalAlignment="Left" Margin="475,55,0,0" VerticalAlignment="Top" Width="65" Click="OffSearch_Click" Height="38"/>
-        <Button x:Name="PropSearchOH" materialDesign:ShadowAssist.ShadowDepth="Depth3" Content="Prop&#xA;View" HorizontalAlignment="Left" Margin="560,55,0,0" VerticalAlignment="Top" Width="65" FontSize="13" Padding="16,-2,16,0" Click="PropSearchOH_Click" Height="38"/>
+        <Button x:Name="PropSearchOH" materialDesign:ShadowAssist.ShadowDepth="Depth3" Content="{Binding Source={x:Static resx:UIStringsContent.PropView}}" HorizontalAlignment="Left" Margin="560,55,0,0" VerticalAlignment="Top" Width="65" FontSize="13" Padding="16,-2,16,0" Click="PropSearchOH_Click" Height="38"/>
 
         <!-- Head -->
         <CheckBox IsChecked="{Binding Path=CharacterDetails.HeadPiece.freeze}" Content="{Binding Source={x:Static resx:UIStringsContent.Head}}" ToolTip="{Binding Source={x:Static resx:UIStringsContent.Head}}" HorizontalAlignment="Left" Margin="8,105,0,0" VerticalAlignment="Top" Height="38"/>

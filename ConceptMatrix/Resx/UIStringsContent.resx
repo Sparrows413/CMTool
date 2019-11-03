@@ -1121,4 +1121,143 @@ Status Effects:</value>
   <data name="ZRot2ToolTip" xml:space="preserve">
     <value>Modifies the Z Rotation of the selected joint.</value>
   </data>
+  <data name="BGMFreeze" xml:space="preserve">
+    <value>Freeze BGM</value>
+  </data>
+  <data name="BGMID" xml:space="preserve">
+    <value>BGM ID</value>
+  </data>
+  <data name="CamAngleX" xml:space="preserve">
+    <value>Cam Angle X:</value>
+  </data>
+  <data name="CamAngleY" xml:space="preserve">
+    <value>Cam Angle Y:</value>
+  </data>
+  <data name="CameraSettings" xml:space="preserve">
+    <value>Camera Settings</value>
+  </data>
+  <data name="CamRotation" xml:space="preserve">
+    <value>Cam Rotation:</value>
+  </data>
+  <data name="CamUpDown" xml:space="preserve">
+    <value>Cam Up/Down:</value>
+  </data>
+  <data name="CamYMax" xml:space="preserve">
+    <value>Cam Y Max:</value>
+  </data>
+  <data name="CamYMin" xml:space="preserve">
+    <value>Cam Y Min:</value>
+  </data>
+  <data name="Colorfulness" xml:space="preserve">
+    <value>Colorfulness:</value>
+  </data>
+  <data name="Colorfulness2" xml:space="preserve">
+    <value>Colorfulness 2:</value>
+  </data>
+  <data name="Contrast" xml:space="preserve">
+    <value>Contrast:</value>
+  </data>
+  <data name="Contrast2" xml:space="preserve">
+    <value>Contrast 2:</value>
+  </data>
+  <data name="CurrentZoom" xml:space="preserve">
+    <value>Current Zoom:</value>
+  </data>
+  <data name="DefaultTime" xml:space="preserve">
+    <value>Default Time</value>
+  </data>
+  <data name="Exposure" xml:space="preserve">
+    <value>Exposure:</value>
+  </data>
+  <data name="Filmic" xml:space="preserve">
+    <value>Filmic:</value>
+  </data>
+  <data name="Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="FoV" xml:space="preserve">
+    <value>Field of View:</value>
+  </data>
+  <data name="FoV2" xml:space="preserve">
+    <value>Field of View 2:</value>
+  </data>
+  <data name="FreezeAll" xml:space="preserve">
+    <value>Freeze All</value>
+  </data>
+  <data name="Gamma" xml:space="preserve">
+    <value>Gamma:</value>
+  </data>
+  <data name="GroupPoseFilter" xml:space="preserve">
+    <value>Group Pose Filters</value>
+  </data>
+  <data name="HDR" xml:space="preserve">
+    <value>HDR:</value>
+  </data>
+  <data name="LoadButton" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="LockTime" xml:space="preserve">
+    <value>Lock Time:</value>
+  </data>
+  <data name="MaxZoom" xml:space="preserve">
+    <value>Max Zoom:</value>
+  </data>
+  <data name="MinZoom" xml:space="preserve">
+    <value>Min Zoom:</value>
+  </data>
+  <data name="PropView" xml:space="preserve">
+    <value>Prop
+View</value>
+  </data>
+  <data name="RefreshButton" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="RenderCycle" xml:space="preserve">
+    <value>Render Cycle</value>
+  </data>
+  <data name="RenderLimit" xml:space="preserve">
+    <value>Remove Character Render Limit:</value>
+  </data>
+  <data name="RenderToggleToolTip" xml:space="preserve">
+    <value>Render Toggle Switch</value>
+  </data>
+  <data name="ResetToDefaultButton" xml:space="preserve">
+    <value>Reset to Default</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SHDR" xml:space="preserve">
+    <value>S-HDR:</value>
+  </data>
+  <data name="TimeButtonLockToolTip" xml:space="preserve">
+    <value>Time Toggle Switch</value>
+  </data>
+  <data name="TimeControl" xml:space="preserve">
+    <value>Time Control:</value>
+  </data>
+  <data name="TimeControlToolTip" xml:space="preserve">
+    <value>Adjusts the current time for the zone. &amp;#xD;&amp;#xA;&amp;#x2022; Using Time Control while in GPose with 'Freeze Time/Weather' toggled on will cycle the phases of the Moon.</value>
+  </data>
+  <data name="TimeLockToolTip" xml:space="preserve">
+    <value>Attempts to prevent the time set using Time Control from changing.&amp;#xD;&amp;#xA;&amp;#x2022; This is imprecise, and will still shift slightly over long periods of time.</value>
+  </data>
+  <data name="Vibrance" xml:space="preserve">
+    <value>Vibrance:</value>
+  </data>
+  <data name="Weather" xml:space="preserve">
+    <value>Weather:</value>
+  </data>
+  <data name="WeatherForce" xml:space="preserve">
+    <value>Force Weather:</value>
+  </data>
+  <data name="WeatherForceToolTip" xml:space="preserve">
+    <value>Controls the current weather for your zone.&amp;#xD;&amp;#xA;This method uses instant transitions, and will change as soon as you select a weather from the drop down menu.</value>
+  </data>
+  <data name="WeatherSelect" xml:space="preserve">
+    <value>Weather Select</value>
+  </data>
+  <data name="WeatherToolTip" xml:space="preserve">
+    <value>Controls the current weather for your zone. &amp;#xD;&amp;#xA;This method uses natural transitions and may a bit of time to take effect.</value>
+  </data>
 </root>
