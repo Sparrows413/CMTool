@@ -126,6 +126,7 @@
             <ComboBoxItem Content="Levitation" Tag="12" Background="{x:Null}"/>
             <ComboBoxItem Content="Bind" Tag="13" Background="{x:Null}"/>
             <ComboBoxItem Content="Heavy" Tag="14" Background="{x:Null}"/>
+            <ComboBoxItem Content="Sneak" Tag="47" Background="{x:Null}"/>
             <ComboBoxItem Content="Infuriated" Tag="97" Background="{x:Null}"/>
             <ComboBoxItem Content="Greased Lightning" Tag="111" Background="{x:Null}"/>
             <ComboBoxItem Content="Greased Lightning II" Tag="112" Background="{x:Null}"/>
