@@ -938,4 +938,187 @@ Status Effects:</value>
     <value>Modifies the Z Rotation of the selected actor.
 • You may need to Freeze the animations of your actor to properly apply this in GPose.&amp;#xD;&amp;#xA;&amp;#x2022; Both Rotation Sliders and Numerical direct input require Rotation to be frozen.</value>
   </data>
+  <data name="Arms" xml:space="preserve">
+    <value>Arms:</value>
+  </data>
+  <data name="Breasts" xml:space="preserve">
+    <value>Breasts:</value>
+  </data>
+  <data name="Calves" xml:space="preserve">
+    <value>Calves:</value>
+  </data>
+  <data name="Cheeks" xml:space="preserve">
+    <value>Cheeks:</value>
+  </data>
+  <data name="Chest" xml:space="preserve">
+    <value>Chest:</value>
+  </data>
+  <data name="Clavicles" xml:space="preserve">
+    <value>Clavicles:</value>
+  </data>
+  <data name="Elbows" xml:space="preserve">
+    <value>Elbows:</value>
+  </data>
+  <data name="EnableEditing" xml:space="preserve">
+    <value>Enable Editing:</value>
+  </data>
+  <data name="EnablePhysics" xml:space="preserve">
+    <value>Enable Physics:</value>
+  </data>
+  <data name="Eyelids" xml:space="preserve">
+    <value>Eyelids:</value>
+  </data>
+  <data name="Eyes" xml:space="preserve">
+    <value>Eyes:</value>
+  </data>
+  <data name="Face" xml:space="preserve">
+    <value>Face:</value>
+  </data>
+  <data name="FingerBones" xml:space="preserve">
+    <value>Finger Bones</value>
+  </data>
+  <data name="Forearms" xml:space="preserve">
+    <value>Forearms:</value>
+  </data>
+  <data name="HeadBones" xml:space="preserve">
+    <value>Head Bones</value>
+  </data>
+  <data name="IndexFinger" xml:space="preserve">
+    <value>Index Finger:</value>
+  </data>
+  <data name="IndexJoint" xml:space="preserve">
+    <value>Index Joint:</value>
+  </data>
+  <data name="InnerBrows" xml:space="preserve">
+    <value>Inner Brows:</value>
+  </data>
+  <data name="Jaw" xml:space="preserve">
+    <value>Jaw:</value>
+  </data>
+  <data name="Knees" xml:space="preserve">
+    <value>Knees:</value>
+  </data>
+  <data name="LeftArm" xml:space="preserve">
+    <value>Left Arm:</value>
+  </data>
+  <data name="LeftLeg" xml:space="preserve">
+    <value>Left Leg:</value>
+  </data>
+  <data name="LowerBodyBones" xml:space="preserve">
+    <value>Lower Body Bones</value>
+  </data>
+  <data name="LowerEarrings" xml:space="preserve">
+    <value>Lower Earrings:</value>
+  </data>
+  <data name="LowerEyelids" xml:space="preserve">
+    <value>Lower Eyelids:</value>
+  </data>
+  <data name="LowerLip" xml:space="preserve">
+    <value>Lower Lip:</value>
+  </data>
+  <data name="MiddleFinger" xml:space="preserve">
+    <value>Middle Finger:</value>
+  </data>
+  <data name="MiddleJoint" xml:space="preserve">
+    <value>Middle Joint:</value>
+  </data>
+  <data name="Mouth" xml:space="preserve">
+    <value>Mouth:</value>
+  </data>
+  <data name="Nose" xml:space="preserve">
+    <value>Nose:</value>
+  </data>
+  <data name="Nostrils" xml:space="preserve">
+    <value>Nostrils:</value>
+  </data>
+  <data name="OuterBrows" xml:space="preserve">
+    <value>Outer Brows:</value>
+  </data>
+  <data name="Pelvis" xml:space="preserve">
+    <value>Pelvis:</value>
+  </data>
+  <data name="PinkyFinger" xml:space="preserve">
+    <value>Pinky Finger:</value>
+  </data>
+  <data name="PinkyJoint" xml:space="preserve">
+    <value>Pinky Joint:</value>
+  </data>
+  <data name="RightArm" xml:space="preserve">
+    <value>Right Arm:</value>
+  </data>
+  <data name="RightLeg" xml:space="preserve">
+    <value>Right Leg:</value>
+  </data>
+  <data name="RingFinger" xml:space="preserve">
+    <value>Ring Finger:</value>
+  </data>
+  <data name="RingJoint" xml:space="preserve">
+    <value>Ring Joint:</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Shoulders" xml:space="preserve">
+    <value>Shoulders:</value>
+  </data>
+  <data name="Sternum" xml:space="preserve">
+    <value>Sternum:</value>
+  </data>
+  <data name="Tail" xml:space="preserve">
+    <value>Tail:</value>
+  </data>
+  <data name="TailJoints" xml:space="preserve">
+    <value>Tail Joints:</value>
+  </data>
+  <data name="Thumb" xml:space="preserve">
+    <value>Thumb:</value>
+  </data>
+  <data name="ThumbJoint" xml:space="preserve">
+    <value>Thumb Joint:</value>
+  </data>
+  <data name="Toes" xml:space="preserve">
+    <value>Toes:</value>
+  </data>
+  <data name="Torso" xml:space="preserve">
+    <value>Torso:</value>
+  </data>
+  <data name="TPoseActor" xml:space="preserve">
+    <value>T-Pose Actor</value>
+  </data>
+  <data name="UpperBodyBones" xml:space="preserve">
+    <value>Upper Body Bones</value>
+  </data>
+  <data name="UpperEarrings" xml:space="preserve">
+    <value>Upper Earrings:</value>
+  </data>
+  <data name="UpperLip" xml:space="preserve">
+    <value>Upper Lip:</value>
+  </data>
+  <data name="VieraLowerEars" xml:space="preserve">
+    <value>Viera Lower Ears:</value>
+  </data>
+  <data name="VieraUpperEars" xml:space="preserve">
+    <value>Viera Upper Ears:</value>
+  </data>
+  <data name="Waist" xml:space="preserve">
+    <value>Waist:</value>
+  </data>
+  <data name="XRot2" xml:space="preserve">
+    <value>X Rotation:</value>
+  </data>
+  <data name="XRot2ToolTip" xml:space="preserve">
+    <value>Modifies the X Rotation of the selected joint.</value>
+  </data>
+  <data name="YRot2" xml:space="preserve">
+    <value>Y Rotation:</value>
+  </data>
+  <data name="YRot2ToolTip" xml:space="preserve">
+    <value>Modifies the Y Rotation of the selected joint.</value>
+  </data>
+  <data name="ZRot2" xml:space="preserve">
+    <value>Z Rotation:</value>
+  </data>
+  <data name="ZRot2ToolTip" xml:space="preserve">
+    <value>Modifies the Z Rotation of the selected joint.</value>
+  </data>
 </root>

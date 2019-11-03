@@ -170,6 +170,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Arms:.
+        /// </summary>
+        public static string Arms {
+            get {
+                return ResourceManager.GetString("Arms", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Array of Bytes.
         /// </summary>
         public static string ArrayOfBytes {
@@ -257,6 +266,15 @@ namespace ConceptMatrix.Resx {
         public static string BodyType {
             get {
                 return ResourceManager.GetString("BodyType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Breasts:.
+        /// </summary>
+        public static string Breasts {
+            get {
+                return ResourceManager.GetString("Breasts", resourceCulture);
             }
         }
         
@@ -543,6 +561,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Calves:.
+        /// </summary>
+        public static string Calves {
+            get {
+                return ResourceManager.GetString("Calves", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Camera View X:.
         /// </summary>
         public static string CameraViewX {
@@ -597,6 +624,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cheeks:.
+        /// </summary>
+        public static string Cheeks {
+            get {
+                return ResourceManager.GetString("Cheeks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chest:.
+        /// </summary>
+        public static string Chest {
+            get {
+                return ResourceManager.GetString("Chest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clan:.
         /// </summary>
         public static string Clan {
@@ -611,6 +656,15 @@ namespace ConceptMatrix.Resx {
         public static string ClanToolTip {
             get {
                 return ResourceManager.GetString("ClanToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clavicles:.
+        /// </summary>
+        public static string Clavicles {
+            get {
+                return ResourceManager.GetString("Clavicles", resourceCulture);
             }
         }
         
@@ -746,6 +800,33 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Elbows:.
+        /// </summary>
+        public static string Elbows {
+            get {
+                return ResourceManager.GetString("Elbows", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enable Editing:.
+        /// </summary>
+        public static string EnableEditing {
+            get {
+                return ResourceManager.GetString("EnableEditing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enable Physics:.
+        /// </summary>
+        public static string EnablePhysics {
+            get {
+                return ResourceManager.GetString("EnablePhysics", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Entity Type:.
         /// </summary>
         public static string EntityType {
@@ -830,6 +911,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Eyelids:.
+        /// </summary>
+        public static string Eyelids {
+            get {
+                return ResourceManager.GetString("Eyelids", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eyes:.
+        /// </summary>
+        public static string Eyes {
+            get {
+                return ResourceManager.GetString("Eyes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Eyes Type:.
         /// </summary>
         public static string EyesType {
@@ -844,6 +943,15 @@ namespace ConceptMatrix.Resx {
         public static string EyeTypeToolTip {
             get {
                 return ResourceManager.GetString("EyeTypeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Face:.
+        /// </summary>
+        public static string Face {
+            get {
+                return ResourceManager.GetString("Face", resourceCulture);
             }
         }
         
@@ -938,6 +1046,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Finger Bones.
+        /// </summary>
+        public static string FingerBones {
+            get {
+                return ResourceManager.GetString("FingerBones", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Force Anim:.
         /// </summary>
         public static string ForceAnim {
@@ -956,6 +1073,15 @@ namespace ConceptMatrix.Resx {
         public static string ForceAnimToolTip {
             get {
                 return ResourceManager.GetString("ForceAnimToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Forearms:.
+        /// </summary>
+        public static string Forearms {
+            get {
+                return ResourceManager.GetString("Forearms", resourceCulture);
             }
         }
         
@@ -1165,6 +1291,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Head Bones.
+        /// </summary>
+        public static string HeadBones {
+            get {
+                return ResourceManager.GetString("HeadBones", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Allows you to equip any headpiece on the selected actor..
         /// </summary>
         public static string HeadToolTip {
@@ -1267,6 +1402,42 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Index Finger:.
+        /// </summary>
+        public static string IndexFinger {
+            get {
+                return ResourceManager.GetString("IndexFinger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Index Joint:.
+        /// </summary>
+        public static string IndexJoint {
+            get {
+                return ResourceManager.GetString("IndexJoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inner Brows:.
+        /// </summary>
+        public static string InnerBrows {
+            get {
+                return ResourceManager.GetString("InnerBrows", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jaw:.
+        /// </summary>
+        public static string Jaw {
+            get {
+                return ResourceManager.GetString("Jaw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Jaw Type:.
         /// </summary>
         public static string JawType {
@@ -1303,6 +1474,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Knees:.
+        /// </summary>
+        public static string Knees {
+            get {
+                return ResourceManager.GetString("Knees", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to EN.
         /// </summary>
         public static string Language {
@@ -1312,11 +1492,29 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Left Arm:.
+        /// </summary>
+        public static string LeftArm {
+            get {
+                return ResourceManager.GetString("LeftArm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Left Eye Color.
         /// </summary>
         public static string LeftEyeColor {
             get {
                 return ResourceManager.GetString("LeftEyeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Left Leg:.
+        /// </summary>
+        public static string LeftLeg {
+            get {
+                return ResourceManager.GetString("LeftLeg", resourceCulture);
             }
         }
         
@@ -1476,6 +1674,42 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Lower Body Bones.
+        /// </summary>
+        public static string LowerBodyBones {
+            get {
+                return ResourceManager.GetString("LowerBodyBones", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lower Earrings:.
+        /// </summary>
+        public static string LowerEarrings {
+            get {
+                return ResourceManager.GetString("LowerEarrings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lower Eyelids:.
+        /// </summary>
+        public static string LowerEyelids {
+            get {
+                return ResourceManager.GetString("LowerEyelids", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lower Lip:.
+        /// </summary>
+        public static string LowerLip {
+            get {
+                return ResourceManager.GetString("LowerLip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Main Hand:.
         /// </summary>
         public static string MainHand {
@@ -1517,6 +1751,24 @@ namespace ConceptMatrix.Resx {
         public static string MainHandToolTip {
             get {
                 return ResourceManager.GetString("MainHandToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Middle Finger:.
+        /// </summary>
+        public static string MiddleFinger {
+            get {
+                return ResourceManager.GetString("MiddleFinger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Middle Joint:.
+        /// </summary>
+        public static string MiddleJoint {
+            get {
+                return ResourceManager.GetString("MiddleJoint", resourceCulture);
             }
         }
         
@@ -1564,6 +1816,15 @@ namespace ConceptMatrix.Resx {
         public static string ModelTypeToolTip {
             get {
                 return ResourceManager.GetString("ModelTypeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mouth:.
+        /// </summary>
+        public static string Mouth {
+            get {
+                return ResourceManager.GetString("Mouth", resourceCulture);
             }
         }
         
@@ -1649,6 +1910,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Nose:.
+        /// </summary>
+        public static string Nose {
+            get {
+                return ResourceManager.GetString("Nose", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Nose Type:.
         /// </summary>
         public static string NoseType {
@@ -1663,6 +1933,15 @@ namespace ConceptMatrix.Resx {
         public static string NoseTypeToolTip {
             get {
                 return ResourceManager.GetString("NoseTypeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nostrils:.
+        /// </summary>
+        public static string Nostrils {
+            get {
+                return ResourceManager.GetString("Nostrils", resourceCulture);
             }
         }
         
@@ -1739,6 +2018,15 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Outer Brows:.
+        /// </summary>
+        public static string OuterBrows {
+            get {
+                return ResourceManager.GetString("OuterBrows", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Overall Scale:.
         /// </summary>
         public static string OverallScale {
@@ -1753,6 +2041,33 @@ namespace ConceptMatrix.Resx {
         public static string OverallScaleToolTip {
             get {
                 return ResourceManager.GetString("OverallScaleToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pelvis:.
+        /// </summary>
+        public static string Pelvis {
+            get {
+                return ResourceManager.GetString("Pelvis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pinky Finger:.
+        /// </summary>
+        public static string PinkyFinger {
+            get {
+                return ResourceManager.GetString("PinkyFinger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pinky Joint:.
+        /// </summary>
+        public static string PinkyJoint {
+            get {
+                return ResourceManager.GetString("PinkyJoint", resourceCulture);
             }
         }
         
@@ -1899,11 +2214,29 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Right Arm:.
+        /// </summary>
+        public static string RightArm {
+            get {
+                return ResourceManager.GetString("RightArm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Right Eye Color.
         /// </summary>
         public static string RightEyeColor {
             get {
                 return ResourceManager.GetString("RightEyeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Right Leg:.
+        /// </summary>
+        public static string RightLeg {
+            get {
+                return ResourceManager.GetString("RightLeg", resourceCulture);
             }
         }
         
@@ -1922,6 +2255,24 @@ namespace ConceptMatrix.Resx {
         public static string RightRingToolTip {
             get {
                 return ResourceManager.GetString("RightRingToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ring Finger:.
+        /// </summary>
+        public static string RingFinger {
+            get {
+                return ResourceManager.GetString("RingFinger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ring Joint:.
+        /// </summary>
+        public static string RingJoint {
+            get {
+                return ResourceManager.GetString("RingJoint", resourceCulture);
             }
         }
         
@@ -1993,6 +2344,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Settings.
+        /// </summary>
+        public static string Settings {
+            get {
+                return ResourceManager.GetString("Settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shoulders:.
+        /// </summary>
+        public static string Shoulders {
+            get {
+                return ResourceManager.GetString("Shoulders", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Skin Color.
         /// </summary>
         public static string SkinColor {
@@ -2043,6 +2412,33 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sternum:.
+        /// </summary>
+        public static string Sternum {
+            get {
+                return ResourceManager.GetString("Sternum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tail:.
+        /// </summary>
+        public static string Tail {
+            get {
+                return ResourceManager.GetString("Tail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tail Joints:.
+        /// </summary>
+        public static string TailJoints {
+            get {
+                return ResourceManager.GetString("TailJoints", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Targeted Actor is ???.
         /// </summary>
         public static string TargetActorIs {
@@ -2071,6 +2467,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Thumb:.
+        /// </summary>
+        public static string Thumb {
+            get {
+                return ResourceManager.GetString("Thumb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thumb Joint:.
+        /// </summary>
+        public static string ThumbJoint {
+            get {
+                return ResourceManager.GetString("ThumbJoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Title:.
         /// </summary>
         public static string Title {
@@ -2085,6 +2499,33 @@ namespace ConceptMatrix.Resx {
         public static string TitleToolTip {
             get {
                 return ResourceManager.GetString("TitleToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toes:.
+        /// </summary>
+        public static string Toes {
+            get {
+                return ResourceManager.GetString("Toes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Torso:.
+        /// </summary>
+        public static string Torso {
+            get {
+                return ResourceManager.GetString("Torso", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to T-Pose Actor.
+        /// </summary>
+        public static string TPoseActor {
+            get {
+                return ResourceManager.GetString("TPoseActor", resourceCulture);
             }
         }
         
@@ -2145,11 +2586,56 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Upper Body Bones.
+        /// </summary>
+        public static string UpperBodyBones {
+            get {
+                return ResourceManager.GetString("UpperBodyBones", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upper Earrings:.
+        /// </summary>
+        public static string UpperEarrings {
+            get {
+                return ResourceManager.GetString("UpperEarrings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upper Lip:.
+        /// </summary>
+        public static string UpperLip {
+            get {
+                return ResourceManager.GetString("UpperLip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Variant.
         /// </summary>
         public static string Variant {
             get {
                 return ResourceManager.GetString("Variant", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Viera Lower Ears:.
+        /// </summary>
+        public static string VieraLowerEars {
+            get {
+                return ResourceManager.GetString("VieraLowerEars", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Viera Upper Ears:.
+        /// </summary>
+        public static string VieraUpperEars {
+            get {
+                return ResourceManager.GetString("VieraUpperEars", resourceCulture);
             }
         }
         
@@ -2186,6 +2672,15 @@ namespace ConceptMatrix.Resx {
         public static string VoiceTypeToolTip {
             get {
                 return ResourceManager.GetString("VoiceTypeToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Waist:.
+        /// </summary>
+        public static string Waist {
+            get {
+                return ResourceManager.GetString("Waist", resourceCulture);
             }
         }
         
@@ -2273,6 +2768,24 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to X Rotation:.
+        /// </summary>
+        public static string XRot2 {
+            get {
+                return ResourceManager.GetString("XRot2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modifies the X Rotation of the selected joint..
+        /// </summary>
+        public static string XRot2ToolTip {
+            get {
+                return ResourceManager.GetString("XRot2ToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Modifies the X Rotation of the selected actor.
         ///• You may need to Freeze the animations of your actor to properly apply this in GPose.
         ///• Both Rotation Sliders and Numerical direct input require Rotation to be frozen..
@@ -2317,6 +2830,24 @@ namespace ConceptMatrix.Resx {
         public static string YRot {
             get {
                 return ResourceManager.GetString("YRot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Y Rotation:.
+        /// </summary>
+        public static string YRot2 {
+            get {
+                return ResourceManager.GetString("YRot2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modifies the Y Rotation of the selected joint..
+        /// </summary>
+        public static string YRot2ToolTip {
+            get {
+                return ResourceManager.GetString("YRot2ToolTip", resourceCulture);
             }
         }
         
@@ -2392,6 +2923,24 @@ namespace ConceptMatrix.Resx {
         public static string ZRot {
             get {
                 return ResourceManager.GetString("ZRot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Z Rotation:.
+        /// </summary>
+        public static string ZRot2 {
+            get {
+                return ResourceManager.GetString("ZRot2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modifies the Z Rotation of the selected joint..
+        /// </summary>
+        public static string ZRot2ToolTip {
+            get {
+                return ResourceManager.GetString("ZRot2ToolTip", resourceCulture);
             }
         }
         
