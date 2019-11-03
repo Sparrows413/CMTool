@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ConceptMatrix.Windows"
         mc:Ignorable="d"
-        Title="Language Select" Height="299.781" Width="211.244" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterOwner">
-    <Grid>
+        Title="Language Select" Height="300" Width="212" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterOwner">
+    <Grid Width="205" Height="270">
         <Button x:Name="EnglishButton" Content="English" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="185" Click="EnglishButton_Click" Height="36"/>
         <Button x:Name="JapaneseButton" Content="日本語 (Japanese)" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" Width="185" Click="JapaneseButton_Click" Height="36"/>
         <Button x:Name="GermanButton" Content="Deutsch (German)" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="185" Click="GermanButton_Click" Height="36"/>
